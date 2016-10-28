@@ -9,37 +9,8 @@ namespace MemoBicho.UI
 {
     class GridLayoutPage : ContentPage
     {
-        int countTappedAnimals = 0;
-
-        List<string> tappedAnimals = new List<string>();
-        List<string> tappedPairAnimals = new List<string>();
-
-        Frame[] animals = {
-            new Frame { ClassId = "Duck",
-                        BackgroundColor = Color.FromHex("#CDDC39"),
-                        Content = new Image { Source = ImageSource.FromFile("duck.png"),
-                                              Aspect = Aspect.AspectFit,
-                                              BackgroundColor = Color.FromHex("#CDDC39"),
-                                              Opacity = 1 } },
-            new Frame { ClassId = "Giraffe",
-                        BackgroundColor = Color.FromHex("#CDDC39"),
-                        Content = new Image { Source = ImageSource.FromFile("giraffe.png"),
-                                              Aspect = Aspect.AspectFit,
-                                              BackgroundColor = Color.FromHex("#CDDC39"),
-                                              Opacity = 1 } },
-            new Frame { ClassId = "Duck",
-                        BackgroundColor = Color.FromHex("#CDDC39"),
-                        Content = new Image { Source = ImageSource.FromFile("duck.png"),
-                                              Aspect = Aspect.AspectFit,
-                                              BackgroundColor = Color.FromHex("#CDDC39"),
-                                              Opacity = 1 } },
-            new Frame { ClassId = "Giraffe",
-                        BackgroundColor = Color.FromHex("#CDDC39"),
-                        Content = new Image { Source = ImageSource.FromFile("giraffe.png"),
-                                              Aspect = Aspect.AspectFit,
-                                              BackgroundColor = Color.FromHex("#CDDC39"),
-                                              Opacity = 1 } }
-        };
+        List<string> matchedAnimals = new List<string>();
+        List<Frame> tappedPairAnimals = new List<Frame>();
 
         Grid grid = new Grid();
 
@@ -50,6 +21,45 @@ namespace MemoBicho.UI
         };
 
         TapGestureRecognizer tap = new TapGestureRecognizer();
+
+        Frame[] animals = {
+            new Frame { ClassId = "Duck",
+                        BackgroundColor = Color.FromHex("#CDDC39"),
+                        Content = new Image { Source = ImageSource.FromFile("duck.png"),
+                                              Aspect = Aspect.AspectFit,
+                                              BackgroundColor = Color.FromHex("#CDDC39"),
+                                              Opacity = 1 } },
+            new Frame { ClassId = "Bulldog",
+                        BackgroundColor = Color.FromHex("#CDDC39"),
+                        Content = new Image { Source = ImageSource.FromFile("bulldog.png"),
+                                              Aspect = Aspect.AspectFit,
+                                              BackgroundColor = Color.FromHex("#CDDC39"),
+                                              Opacity = 1 } },
+            new Frame { ClassId = "Giraffe",
+                        BackgroundColor = Color.FromHex("#CDDC39"),
+                        Content = new Image { Source = ImageSource.FromFile("giraffe.png"),
+                                              Aspect = Aspect.AspectFit,
+                                              BackgroundColor = Color.FromHex("#CDDC39"),
+                                              Opacity = 1 } },
+            new Frame { ClassId = "Duck",
+                        BackgroundColor = Color.FromHex("#CDDC39"),
+                        Content = new Image { Source = ImageSource.FromFile("duck.png"),
+                                              Aspect = Aspect.AspectFit,
+                                              BackgroundColor = Color.FromHex("#CDDC39"),
+                                              Opacity = 1 } },
+            new Frame { ClassId = "Giraffe",
+                        BackgroundColor = Color.FromHex("#CDDC39"),
+                        Content = new Image { Source = ImageSource.FromFile("giraffe.png"),
+                                              Aspect = Aspect.AspectFit,
+                                              BackgroundColor = Color.FromHex("#CDDC39"),
+                                              Opacity = 1 } },
+            new Frame { ClassId = "Bulldog",
+                        BackgroundColor = Color.FromHex("#CDDC39"),
+                        Content = new Image { Source = ImageSource.FromFile("bulldog.png"),
+                                              Aspect = Aspect.AspectFit,
+                                              BackgroundColor = Color.FromHex("#CDDC39"),
+                                              Opacity = 1 } }
+        };
 
         public GridLayoutPage()
         {
@@ -66,52 +76,49 @@ namespace MemoBicho.UI
             {
                 Frame frame = (Frame)sender;
                 Image image = (Image)frame.Content;
-                string animal = frame.ClassId;
+                string animal = frame.ClassId; // Each represents an Animal
 
-                if (image.Opacity == 0) // If it's dark
+                if (image.Opacity == 0 && tappedPairAnimals.Contains(frame) == false) // If it's dark (clickable) and not cliked yet
                 {
-                    tappedPairAnimals.Add(animal); // Add animal to the pair list
-
-                    image.Opacity = 1; // Show animal and save
+                    // Show the Animal and Update the frame (set the frame)
+                    image.Opacity = 1;
                     frame.Content = image;
                     sender = frame;
 
-                    if (tappedPairAnimals.Count == 2) // If 2 tiles tapped
-                    {
-                        if (tappedAnimals.Contains(animal)) // Then check for win
-                        {
-                            DisplayAlert("Working!", "Nice!", "Ok!"); // Congratulations!
-                            /*if (countTappedAnimals == animals.Length - 1) // If all animals matched
-                            {
-                                countTappedAnimals = 0; // Then Reset animals
-                                tappedAnimals.Clear();
-                            
-                                NewGrid(); // And get a new grid for the user
-                            }*/
-                        }
-                    }
-                    else // If not 2 tiles tapped yet 
-                        tappedAnimals.Add(animal); // Add animal to the tappedList
-                }
-            };
-            tap.Tapped += (object sender, EventArgs e) =>
-            {
-                Frame frame = (Frame)sender;
-                Image image = (Image)frame.Content;
-                string animal = frame.ClassId;
+                    // Add Animal Frame to the pair list
+                    tappedPairAnimals.Add(frame);
 
-                if (tappedPairAnimals.Count == 2 && tappedAnimals.Contains(animal) != true) // If 2 tiles tapped
-                {
-                    for (int i = 0; i < animals.Length; i++)
+                    if (tappedPairAnimals.Count == 2) // If 2 frames were tapped
                     {
-                        if (animals[i].ClassId == tappedPairAnimals.ElementAt(0) || animals[i].ClassId == tappedPairAnimals.ElementAt(1)) // Reset just the last non-matched pair animals
+                        if (tappedPairAnimals.First().ClassId == tappedPairAnimals.Last().ClassId) // Then check for match
                         {
-                            Task.Delay(500).Wait();
-                            animals[i].Content.Opacity = 0; // Hide the tapped animals again
-                            tappedAnimals.Remove(animals[i].ClassId); // Remove those different animals from the tappedList
+                            matchedAnimals.Add(tappedPairAnimals.First().ClassId);
+
+                            if (matchedAnimals.Count == animals.Length - 1) // Win if all animals were found
+                            {
+                                DisplayAlert("Parabéns", "Você completou esse desafio.", "Ok!");
+                                tappedPairAnimals.Clear();
+                                matchedAnimals.Clear();
+                            }
+                            else
+                            {
+                                DisplayAlert(animal, "Sabia que esse animal é ...", "Continuar!");
+                                tappedPairAnimals.Clear();
+                            }
+                        }
+                        else // If they dont match, turn both dark (clickable) again
+                        {
+                            foreach (Frame animalFrame in tappedPairAnimals.ToList())
+                            {
+                                for (int i = 0; i < animals.Length; i++)
+                                {
+                                    if (animals[i].ClassId == animalFrame.ClassId)
+                                        animals[i].Content.Opacity = 0;
+                                }
+                            }
+                            tappedPairAnimals.Clear();
                         }
                     }
-                    tappedPairAnimals.Clear(); // Clear tappedPair
                 }
             };
 
@@ -137,14 +144,27 @@ namespace MemoBicho.UI
                 Padding = 10
             };
 
-            var startButton = new Button { Text = "Começar!" };
+            var label = new Label()
+            {
+                Text = "MemoBicho",
+                TextColor = Color.FromHex("#CDDC39"),
+                FontSize = 35,
+                FontAttributes = FontAttributes.Bold,
+                HorizontalTextAlignment = TextAlignment.Center
+            };
+
+            var startButton = new Button { Text = "Começar!", BackgroundColor = Color.FromHex("#8BC34A") };
             startButton.Clicked += delegate
             {
                 // Hide animals
                 for (int i = 0; i < animals.Length; i++)
+                {
                     animals[i].Content.Opacity = 0;
+                    Task.Delay(1000);
+                }
             };
 
+            layout.Children.Add(label);
             layout.Children.Add(grid);
             layout.Children.Add(startButton);
             Content = layout;

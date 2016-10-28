@@ -37,9 +37,7 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="UI\GridLayoutPage.cs" />
-    <Compile Include="UI\MemoBichoGrid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\ImageSquare.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="DLToolkit.Forms.Controls.FlowListView, Version=1.0.6135.1785, Culture=neutral, processorArchitecture=MSIL">

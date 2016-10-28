@@ -12,3 +12,17 @@ c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\M
 c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\DLToolkit.Forms.Controls.FlowListView.xml
 c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
 c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.pdb
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\DLToolkit.Forms.Controls.FlowListView.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\DLToolkit.Forms.Controls.FlowListView.xml
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.csprojResolveAssemblyReference.cache
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.pdb
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb
