@@ -1,5 +1,6 @@
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\MemoBicho.Droid.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\DLToolkit.Forms.Controls.FlowListView.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\ExifLib.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\FormsViewGroup.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
@@ -10,8 +11,16 @@ C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\andro
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\XLabs.Core.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\XLabs.Forms.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\XLabs.Forms.Droid.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\XLabs.Ioc.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\XLabs.Platform.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\XLabs.Platform.Droid.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\XLabs.Serialization.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Mono.Android.Export.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\mscorlib.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Core.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.dll
@@ -39,6 +48,9 @@ C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\andro
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Text.Encoding.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Xml.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll

@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "MemoBicho.Droid.dll" comes first in this list. */
 		"MemoBicho.Droid.dll",
 		"DLToolkit.Forms.Controls.FlowListView.dll",
+		"ExifLib.dll",
 		"FormsViewGroup.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -110,6 +111,13 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"XLabs.Core.dll",
+		"XLabs.Forms.dll",
+		"XLabs.Forms.Droid.dll",
+		"XLabs.Ioc.dll",
+		"XLabs.Platform.dll",
+		"XLabs.Platform.Droid.dll",
+		"XLabs.Serialization.dll",
 		"Java.Interop.dll",
 		"MemoBicho.dll",
 		"System.Runtime.dll",
@@ -130,9 +138,12 @@ class MonoPackageManager_Resources {
 		"System.Linq.dll",
 		"System.ServiceModel.Internals.dll",
 		"System.Text.RegularExpressions.dll",
+		"System.Resources.ResourceManager.dll",
+		"System.Text.Encoding.dll",
+		"System.Runtime.Serialization.Primitives.dll",
+		"System.Runtime.Serialization.Xml.dll",
 		"System.Collections.Concurrent.dll",
 		"System.Runtime.InteropServices.dll",
-		"System.Resources.ResourceManager.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
