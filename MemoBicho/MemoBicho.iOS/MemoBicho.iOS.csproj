@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EA2DE05B-4AE0-472D-AFED-D8AAA2B7D496}</ProjectGuid>
+    <ProjectGuid>{B60D5889-9818-4993-B785-C01172340C71}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>MemoBicho.iOS</RootNamespace>
@@ -139,7 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MemoBicho\MemoBicho.csproj">
-      <Project>{80F05089-0C22-412F-8B09-D90A1FFA8BBE}</Project>
+      <Project>{837187F0-C6D3-4AA3-AD8E-6CE83ACD11F3}</Project>
       <Name>MemoBicho</Name>
     </ProjectReference>
   </ItemGroup>

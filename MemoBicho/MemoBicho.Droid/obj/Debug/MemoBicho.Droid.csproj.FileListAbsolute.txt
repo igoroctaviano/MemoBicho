@@ -1,159 +1,260 @@
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.pdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.apk
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid-Signed.apk
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\FormsViewGroup.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.pdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.xml
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.csprojResolveAssemblyReference.cache
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.pdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\bin\MemoBicho.Droid.apk
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\icon.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-hdpi\icon.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xhdpi\icon.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\R.cs.flag
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\uploadflags.txt
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Java.Interop.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Mono.Android.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\mscorlib.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Core.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Net.Http.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Xml.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Xml.Linq.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\MemoBicho.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\MemoBicho.Droid.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Core.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bird.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bulldog.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\duck.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\giraffe.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\hippopotamus.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\mouse.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\parrot.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\pelican.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rabbit.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rhinoceros.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\squirrel.png
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\DLToolkit.Forms.Controls.FlowListView.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\DLToolkit.Forms.Controls.FlowListView.xml
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.pdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.apk
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid-Signed.apk
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\DLToolkit.Forms.Controls.FlowListView.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\FormsViewGroup.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.pdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\DLToolkit.Forms.Controls.FlowListView.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.csprojResolveAssemblyReference.cache
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.pdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\bin\MemoBicho.Droid.apk
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-hdpi\icon.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xhdpi\icon.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bird.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bulldog.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\duck.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\giraffe.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\hippopotamus.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\mouse.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\parrot.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\pelican.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rabbit.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rhinoceros.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\squirrel.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\cat.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\jungle.jpg
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lion.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\wolf.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\icon.png
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\R.cs.flag
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\uploadflags.txt
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.config
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\ExifLib.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Core.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.Droid.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Ioc.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.Droid.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Serialization.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Core.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.Droid.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Ioc.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.Droid.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Serialization.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Java.Interop.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Mono.Android.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\Mono.Android.Export.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\mscorlib.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Core.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Net.Http.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Xml.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Xml.Linq.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\MemoBicho.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\MemoBicho.Droid.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Mono.Android.Export.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Core.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.config
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.pdb
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.apk
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid-Signed.apk
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\ExifLib.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Core.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.Droid.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Ioc.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.Droid.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Serialization.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.pdb
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Core.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.Droid.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Ioc.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.Droid.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Serialization.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.pdb
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\bin\MemoBicho.Droid.apk
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\alligator.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\armadillo.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bird.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bulldog.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\cat.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\dolphin.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\dragon.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\duck.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\fish.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\frog.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\front.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\giraffe.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\hippopotamus.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lamprey.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lion.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\littlefrog.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lizard.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\mouse.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\parrot.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\pelican.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\penguin.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\platypus.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rabbit.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rhinoceros.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\salamander.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\shark.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\snake.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\squirrel.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\toad.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\whale.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\wolf.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\R.cs.flag
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\uploadflags.txt
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.config
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.pdb
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.apk
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid-Signed.apk
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\ExifLib.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Core.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.Droid.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Ioc.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.Droid.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Serialization.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.pdb
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Core.xml
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.xml
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.Droid.xml
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Ioc.xml
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.xml
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.Droid.xml
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Serialization.xml
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.pdb
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\bin\MemoBicho.Droid.apk
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\alligator.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\armadillo.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bird.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bulldog.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\cat.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\dolphin.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\dragon.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\duck.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\fish.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\frog.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\front.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\giraffe.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\hippopotamus.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lamprey.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lion.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\littlefrog.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lizard.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\mouse.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\parrot.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\pelican.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\penguin.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\platypus.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rabbit.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rhinoceros.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\salamander.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\shark.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\snake.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\squirrel.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\toad.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\whale.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\wolf.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\R.cs.flag
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\uploadflags.txt
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.config
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\ExifLib.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Core.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.Droid.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Ioc.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.Droid.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Serialization.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.pdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Core.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Forms.Droid.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Ioc.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Platform.Droid.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\XLabs.Serialization.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.pdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.pdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.apk
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid-Signed.apk
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\bin\MemoBicho.Droid.apk
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\alligator.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\armadillo.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bird.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bulldog.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\cat.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\dolphin.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\dragon.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\duck.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\fish.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\frog.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\front.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\giraffe.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\hippopotamus.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lamprey.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lion.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\littlefrog.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\lizard.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\mouse.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\parrot.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\pelican.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\penguin.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\platypus.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rabbit.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\rhinoceros.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\salamander.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\shark.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\snake.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\squirrel.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\toad.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\whale.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\wolf.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\turtle.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\R.cs.flag
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\uploadflags.txt
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\Mono.Android.Export.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\mscorlib.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Core.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Xml.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\MemoBicho.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\MemoBicho.Droid.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\Mono.Android.Export.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb

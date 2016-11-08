@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F24C56EF-7706-48A1-BBD6-442C590CE887}</ProjectGuid>
+    <ProjectGuid>{7B3555ED-B6E9-411E-8BED-88549F0C5144}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MemoBicho.WinPhone</RootNamespace>
@@ -139,7 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MemoBicho\MemoBicho.csproj">
-      <Project>{80F05089-0C22-412F-8B09-D90A1FFA8BBE}</Project>
+      <Project>{837187F0-C6D3-4AA3-AD8E-6CE83ACD11F3}</Project>
       <Name>MemoBicho</Name>
     </ProjectReference>
   </ItemGroup>

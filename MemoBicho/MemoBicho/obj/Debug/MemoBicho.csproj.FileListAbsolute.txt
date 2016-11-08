@@ -1,42 +1,52 @@
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.pdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Platform.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.xml
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.xml
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.csprojResolveAssemblyReference.cache
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.pdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\DLToolkit.Forms.Controls.FlowListView.dll
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\DLToolkit.Forms.Controls.FlowListView.xml
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
-c:\users\avenue code\documents\visual studio 2015\Projects\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.pdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\DLToolkit.Forms.Controls.FlowListView.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\DLToolkit.Forms.Controls.FlowListView.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.pdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.csprojResolveAssemblyReference.cache
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.config
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\ExifLib.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Mono.Android.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Core.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Forms.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Ioc.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Platform.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Serialization.dll
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\Mono.Android.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Core.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Forms.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Ioc.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Platform.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Serialization.xml
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
-C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.config
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.pdb
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\ExifLib.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Core.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Forms.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Ioc.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Platform.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Serialization.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Core.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Forms.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Ioc.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Platform.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Serialization.xml
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.csprojResolveAssemblyReference.cache
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.pdb
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
+C:\Users\Igor Octaviano\Pictures\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
+C:\Users\Igor Octaviano\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.config
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.pdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\ExifLib.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Core.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Forms.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Ioc.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Platform.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Serialization.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Core.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Forms.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Ioc.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Platform.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\XLabs.Serialization.xml
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.pdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.csprojResolveAssemblyReference.cache
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb

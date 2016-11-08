@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{90D7C517-2D54-42CC-B8BE-22A225886B99}</ProjectGuid>
+    <ProjectGuid>{A1FD27E0-1361-4138-AD76-36DA0FA6DE34}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MemoBicho.UWP</RootNamespace>
@@ -129,7 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MemoBicho\MemoBicho.csproj">
-      <Project>{80F05089-0C22-412F-8B09-D90A1FFA8BBE}</Project>
+      <Project>{837187F0-C6D3-4AA3-AD8E-6CE83ACD11F3}</Project>
       <Name>MemoBicho</Name>
     </ProjectReference>
   </ItemGroup>

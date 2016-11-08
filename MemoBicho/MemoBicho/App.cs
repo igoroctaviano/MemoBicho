@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+
 using Xamarin.Forms;
-using MemoBicho.UI;
 
 namespace MemoBicho
 {
@@ -12,7 +12,7 @@ namespace MemoBicho
         public App()
         {
             // The root page of your application
-            MainPage = new GridLayoutPage();
+            MainPage = new MainMenu();
         }
 
         protected override void OnStart()
