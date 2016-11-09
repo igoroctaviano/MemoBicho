@@ -284,7 +284,7 @@ namespace MemoBicho.Levels.Four
             var width = App.Current.MainPage.Width;
             var height = App.Current.MainPage.Height;
 
-            var grid = new Grid() { };
+            var grid = new Grid();
 
             for (var i = 0; i < this.animals.Length; i++)
             {
@@ -341,7 +341,7 @@ namespace MemoBicho.Levels.Four
             var scrollView = new ScrollView();
             scrollView.Content = grid;
 
-            layout.Children.Add(new Label()
+            layout.Children.Add(new Label
             {
                 Text = "MemoBicho",
                 TextColor = Color.FromHex("#8BC34A"),
@@ -349,7 +349,7 @@ namespace MemoBicho.Levels.Four
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             });
-            layout.Children.Add(new Label()
+            layout.Children.Add(new Label
             {
                 Text = "Jogo da Memória nível 4",
                 FontSize = 20,

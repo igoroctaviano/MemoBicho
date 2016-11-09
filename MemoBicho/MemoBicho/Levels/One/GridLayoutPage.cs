@@ -203,8 +203,9 @@ namespace MemoBicho.Levels.One
         {
             var width = App.Current.MainPage.Width;
             var height = App.Current.MainPage.Height;
+            DisplayAlert("Width:" + width,"Height:" + height,"ok!");
 
-            var grid = new Grid() { };
+            var grid = new Grid();
 
             for (var i = 0; i < this.animals.Length; i++)
             {
@@ -261,7 +262,7 @@ namespace MemoBicho.Levels.One
             var scrollView = new ScrollView();
             scrollView.Content = grid;
 
-            layout.Children.Add(new Label()
+            layout.Children.Add(new Label
             {
                 Text = "MemoBicho",
                 TextColor = Color.FromHex("#8BC34A"),
@@ -269,7 +270,7 @@ namespace MemoBicho.Levels.One
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             });
-            layout.Children.Add(new Label()
+            layout.Children.Add(new Label
             {
                 Text = "Jogo da Memória",
                 FontSize = 20,
