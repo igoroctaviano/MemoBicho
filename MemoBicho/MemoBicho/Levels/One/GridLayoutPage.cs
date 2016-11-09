@@ -18,9 +18,9 @@ namespace MemoBicho.Levels.One
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
-            new Frame { ClassId = "Lobo",
+            new Frame { ClassId = "Hiena",
                         BackgroundColor = Color.FromHex("#CDDC39"),
-                        Content = new Image { Source = "wolf.png",
+                        Content = new Image { Source = "hyena.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
@@ -54,9 +54,9 @@ namespace MemoBicho.Levels.One
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
-            new Frame { ClassId = "Lobo",
+            new Frame { ClassId = "Hiena",
                         BackgroundColor = Color.FromHex("#CDDC39"),
-                        Content = new Image { Source = "wolf.png",
+                        Content = new Image { Source = "hyena.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } }
@@ -65,23 +65,24 @@ namespace MemoBicho.Levels.One
         // Content
         Dictionary<string, string> animalsCuriosities = new Dictionary<string, string>
         {
-            { "Gato", "Os gatos não possuem glândulas sudoríparas espalhadas pelo corpo igual os humanos, "
-                + "eles suam pelas patas. Glândulas sudoríparas são as glândulas que produzem suor." },
-            { "Leão", "As fêmeas são as principais responsáveis pela caça, geralmente em grupos, enquanto os machos cuidam de seus territórios." },
+            { "Gato", "Os gatos não possuem glândulas sudoríparas (glândulas que produzem o suor) espalhadas pelo corpo igual os humanos, "
+                + "eles transpiram pelas patas." },
+            { "Leão", "As fêmeas são as principais responsáveis pela caça, geralmente em grupos, enquanto os machos cuidam de seus territórios. "
+                + "Os leões machos possuem juba, que servem como atrativo sexual." },
             { "Cachorro", "A impressão digital dos cachorros se encontra no focinho. Cada animal tem uma impressão diferente." },
-            { "Lobo", "Os lobos possuem glândulas localizadas entre os dedos que deixam rastro de marcadores químicos " 
-                + " por onde eles passam, ajudando a caminhar de forma eficaz por grandes extensões ao mesmo tempo em " 
-                + "que mantem os outros lobos informados da sua localização." }
+            { "Hiena", "As Hienas são animais oportunistas, que podem caçar, mas geralmente preferem se alimentar de restos de animais mortos." }
         };
         Dictionary<string, string> animalsKnowledge = new Dictionary<string, string>
         {
-            { "GatoLeão", "São felinos; Vibrisas (pelos sensoriais). Ahhh você sabe o que são Vibrisas? "
-                + "São os bigodes dos mamíferos, eles ajudam o animal a se orientar em relação ao meio em que vivem." },
-            { "GatoCachorro", "São domesticados, possuem dentes afiados e são caçadores;" },
-            { "GatoLobo", "Possuem dentes afiados." },
-            { "LeãoCachorro", "Ambos são mamíferos, um é felino o outro é canídeo, ambos apresentam dentes afiados, o Cachorro é domesticado mas o Leão não." },
-            { "LeãoLobo", "São caçadores, carnívoros e convivêm em bando." },
-            { "CachorroLobo", "A musculatura da face desses animais são adaptadas para pegar a presa." }
+            { "GatoLeão", "São felinos mamíferos, possuem vibrisas (são os bigodes dos mamíferos, servem para ajudar o animal a se orientar "
+                + "em relação ao meio em que vivem) e suas unhas podem se esconder dentro da pata, são chamadas garras retráteis." },
+            { "GatoCachorro", "Mamíferos, o Gato é felino e o Cachorro é canídeo, ambos são domesticados. Possuem os dentes afiados próprios para a alimentação carnívora." },
+            { "GatoHiena", "Mamíferos, possuem dentes molares afiados adaptados á carnivoria." },
+            { "LeãoCachorro", "Mamíferos, o Leão é felino e o Cachorro é canídeo, ambos apresentam dentes afiados." },
+            { "LeãoHiena", "Mamíferos, carnívoros. Sua convivência é em bando. O Leão é preferencialmente um predador, e hiena é um "
+                + "animal oportunista, prefere se alimentar de restos de animais mortos por outros predadores." },
+            { "CachorroHiena", "Mamíferos, possuem a musculatura da face adaptada para pegar a presa, porém a hiena é um animal "
+                + "oportunista, e prefere se alimentar de restos de animais mortos por outros predadores." }
         };
         #endregion
 

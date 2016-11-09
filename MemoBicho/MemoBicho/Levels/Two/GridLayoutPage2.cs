@@ -18,9 +18,9 @@ namespace MemoBicho.Levels.Two
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
-            new Frame { ClassId = "Rã",
+            new Frame { ClassId = "Raia",
                         BackgroundColor = Color.FromHex("#CDDC39"),
-                        Content = new Image { Source = "frog.png",
+                        Content = new Image { Source = "ray.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
@@ -66,9 +66,9 @@ namespace MemoBicho.Levels.Two
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
-            new Frame { ClassId = "Rã",
+            new Frame { ClassId = "Raia",
                         BackgroundColor = Color.FromHex("#CDDC39"),
-                        Content = new Image { Source = "frog.png",
+                        Content = new Image { Source = "ray.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } }
@@ -77,21 +77,23 @@ namespace MemoBicho.Levels.Two
         // Content
         Dictionary<string, string> animalsCuriosities = new Dictionary<string, string>
         {
-            { "Sapo", "Por ser terrestre, a sua pele apresenta muitas glândulas que o hidratam e protege de desidratação." },
-            { "Rã", "Tem membranas entre os dedos dos membros pelvinos (pés?) que ajudam na locomoção dentro d'água." },
-            { "Perereca", "Tem discos adesivos nas extremidades dos dedos. Isso ajuda a aderir nas árvores e paredes." },
-            { "Pato", "Tem uma glândula próxima da sua cloaca que produz um óleo usado pelo pato para permeabilizar as penas." },
+            { "Sapo", "Por ser terrestre a pele dos sapos apresentam muitas glândulas que o hidratam e "
+                + "protege de desidratação. É um animal de busca ativa e possui mais glândulas de veneno." },
+            { "Raia", "As Raias possuem uma abertura atrás dos olhos, chamada opérculo. Essa abertura "
+                + "permite a entrada de água para que ela possa respirar quando esta encostada no fundo." },
+            { "Perereca", "As pererecas possuem discos adesivos nas extremidades dos dedos, isso ajuda a aderir nas árvores e paredes." },
+            { "Pato", "Os patos possuem uma glândula com função de hidratar as penas." },
             { "Peixe", "Possuem linha lateral que auxilia na percepção das ondas e no seu deslocamento." }
         };
         Dictionary<string, string> animalsKnowledge = new Dictionary<string, string>
         {
-            { "SapoRã", "Eles se reproduzem na água." },
+            { "SapoRaia", "Eles se reproduzem na água." },
             { "SapoPerereca", "Eles apresentam." },
             { "SapoPato", "Eles vivem no lago, nadam e usam a água para viver." },
             { "SapoPeixe", "Eles nadam e tem muitas glândulas na pele." },
-            { "RãPerereca", "Elas respiram pela pele." },
-            { "RãPato", "Eles nadam e vivem no lago." },
-            { "RãPeixe", "Eles nadam e se reproduzem na água." },
+            { "RaiaPerereca", "Elas respiram pela pele." },
+            { "RaiaPato", "Eles nadam e vivem no lago." },
+            { "RaiaPeixe", "Eles nadam e se reproduzem na água." },
             { "PatoPerereca", "Eles nadam." },
             { "PererecaPeixe", "Eles nadam e se reproduzem na água." },
             { "PatoPeixe", "Eles nadam." }

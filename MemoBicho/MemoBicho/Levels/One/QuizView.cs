@@ -14,14 +14,33 @@ namespace MemoBicho.Levels.One
     {
         Dictionary<string, string> questionsAndAnswers = new Dictionary<string, string>()
             {
-                { "Quanto é 1 + 1?", "2" },
-                { "Quanto é 2 + 1?", "3" }
+                { "Qual a função das vibrissas nos gatos?", "Orientação em relação ao meio" },
+                { "Em relação aos leões marque a alternativa correta:", "As leoas são as principais responsáveis pela caça." },
+                { "Qual a principal diferença entre o cachorro e o gato?", "O gato pertence ao grupo dos felinos e cachorro ao grupo dos canídeos." },
+                { "Em relação às hienas marque a alternativa errada:", "As hienas são herbívoras." }
             };
 
         Dictionary<string, List<string>> possibleAnswers = new Dictionary<string, List<string>>()
             {
-                { "Quanto é 1 + 1?", new List<string>() { "7", "1", "2" } },
-                { "Quanto é 2 + 1?", new List<string>() { "3", "1", "2" } }
+                { "Qual a função das vibrissas nos gatos?", new List<string>() { "Orientação em relação ao meio",
+                                                                                 "Proteção contra predadores",
+                                                                                 "Atrativo sexual",
+                                                                                 "Transpiração" } },
+                { "Em relação aos leões marque a alternativa correta:", new List<string>() {
+                                                          "A juba dos leões tem a função de proteger o animal.",
+                                                          "Os leões são animais que pertencem ao grupo dos canídeos.",
+                                                          "As leoas são as principais responsáveis pela caça.",
+                                                          "Os leões são animais que não vivem em bandos." } },
+                { "Qual a principal diferença entre o cachorro e o gato?", new List<string>() {
+                                                          "O gato pertence ao grupo dos felinos e cachorro ao grupo dos canídeos.",
+                                                          "O gato é domesticado e o cachorro não.",
+                                                          "O cachorro é herbívoro e o gato carnívoro.",
+                                                          "O gato não possui garras retrateis, os cachorros possuem." } },
+                { "Em relação às hienas marque a alternativa errada:", new List<string>() {
+                                                          "As hienas vivem em bandos.",
+                                                          "As hienas são animais oportunistas e preferem se alimentar de animais mortos.",
+                                                          "As hienas são mamíferos.",
+                                                          "As hienas são herbívoras." } }
             };
 
         public QuizView()

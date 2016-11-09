@@ -256,5 +256,7 @@ C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\andro
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\hyena.png
+C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\ray.png
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb
