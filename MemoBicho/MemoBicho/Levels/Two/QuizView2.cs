@@ -14,14 +14,37 @@ namespace MemoBicho.Levels.Two
     {
         Dictionary<string, string> questionsAndAnswers = new Dictionary<string, string>()
             {
-                { "Quanto é 1 + 1?", "2" },
-                { "Quanto é 2 + 1?", "3" }
+                { "Qual a função das glândulas de veneno presentes na pele dos sapos?", "Proteção contra predadores." },
+                { "Quando a raia está no fundo do oceano ela utiliza de uma abertura "
+                    + "para permitir a entrada de água para a respiração. Qual o nome dessa abertura?", "Opérculo." },
+                { "Qual a principal semelhança entre os sapo e a perereca?", "Ambos pertencem ao grupo dos anfíbios." },
+                { "Em relação ao pato marque a alternativa errada:", "São animais que se reproduzem na água." },
+                { "Qual a função da linha lateral nos peixes?", "Auxiliar no deslocamento do animal." }
             };
 
         Dictionary<string, List<string>> possibleAnswers = new Dictionary<string, List<string>>()
             {
-                { "Quanto é 1 + 1?", new List<string>() { "7", "1", "2" } },
-                { "Quanto é 2 + 1?", new List<string>() { "3", "1", "2" } }
+                { "Qual a função das glândulas de veneno presentes na pele dos sapos?", new List<string>() { "Proteção contra predadores.",
+                                                                                                             "Proteção contra a desidratação.",
+                                                                                                             "Auxilia na respiração.",
+                                                                                                             "Atrativo sexual." } },
+                { "Quando a raia está no fundo do oceano ela utiliza de uma abertura "
+                    + "para permitir a entrada de água para a respiração. Qual o nome dessa abertura?", new List<string>() { "Brânquias.",
+                                                                                                                             "Narina.",
+                                                                                                                             "Opérculo.",
+                                                                                                                             "Boca." } },
+                { "Qual a principal semelhança entre os sapo e a perereca?", new List<string>() { "Ambos possuem discos adesivos nas pontas dos dedos.",
+                                                                                                  "Ambos não fazem reproduzem na água.",
+                                                                                                  "Ambos pertencem ao grupo dos anfíbios.",
+                                                                                                  "Ambos não fazem respiração pela pele." } },
+                { "Em relação ao pato marque a alternativa errada:", new List<string>() { "Os patos pertencem ao grupo dos sauropsida.",
+                                                                                          "As penas dos patos não se molham porque elas são impermeabilizadas.",
+                                                                                          "São animais que se reproduzem na água.",
+                                                                                          "Possui muitas glândulas espalhadas pelo corpo." } },
+                { "Qual a função da linha lateral nos peixes?", new List<string>() { "Dividir o corpo do animal em duas partes.",
+                                                                                     "Sustentar o corpo do animal.",
+                                                                                     "Auxiliar no deslocamento do animal.",
+                                                                                     "Auxiliar o animal no processo de respiração." } }
             };
 
         public QuizView2()

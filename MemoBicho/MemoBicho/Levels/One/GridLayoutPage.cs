@@ -74,8 +74,8 @@ namespace MemoBicho.Levels.One
         };
         Dictionary<string, string> animalsKnowledge = new Dictionary<string, string>
         {
-            { "GatoLeão", "São felinos mamíferos, possuem vibrisas (são os bigodes dos mamíferos, servem para ajudar o animal a se orientar "
-                + "em relação ao meio em que vivem) e suas unhas podem se esconder dentro da pata, são chamadas garras retráteis." },
+            { "GatoLeão", "São felinos mamíferos, possuem vibrisas (são os bigodes dos mamíferos, servem para ajudar o animal a se "
+                + "orientar em relação ao meio em que vivem), suas unhas podem se esconder dentro da pata, são chamadas garras retráteis." },
             { "GatoCachorro", "Mamíferos, o Gato é felino e o Cachorro é canídeo, ambos são domesticados. Possuem os dentes afiados próprios para a alimentação carnívora." },
             { "GatoHiena", "Mamíferos, possuem dentes molares afiados adaptados á carnivoria." },
             { "LeãoCachorro", "Mamíferos, o Leão é felino e o Cachorro é canídeo, ambos apresentam dentes afiados." },

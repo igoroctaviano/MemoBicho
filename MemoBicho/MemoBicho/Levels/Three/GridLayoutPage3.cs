@@ -102,40 +102,48 @@ namespace MemoBicho.Levels.Three
         // Content
         Dictionary<string, string> animalsCuriosities = new Dictionary<string, string>
         {
-            { "Tatu", "Quando ameaçado o tatu se enrola e obtém a forma de uma bola com isso ele deixa " 
+            { "Tatu", "Quando ameaçado o tatu se enrola e obtém a forma de uma bola com isso ele deixa "
                 + "exposto somente às placas que formam sua carapaça escondendo do seu predador sua parte frágil." },
-            { "Tartaruga", "..." },
-            { "Lagarto", "Quando ameaçados alguns lagartos forçam a queda da cauda para enganar o predador e " 
-                + " assim terá alguma chance de sobrevivência. O nome desse fenômeno é autotomia. Depois a cauda " 
-                + "regenera e o animal continua sua vida normal." },
-            { "Serpente", "Esses animais possuem o corpo coberto por escamas, que funcionam como proteção mecânica " 
-                + "e também para evitar a desidratação do animal." },
-            { "Jacaré", "Os jacarés passam bastante tempo expostos ao sol com a boca aberta. Isso porque a pele da boca," 
-                + " que é fina e rica em vasos sanguíneos, absorve o calor com mais rapidez e eficiência. Vivem cerca de 80 anos.." },
-            { "Dragão de Komodo", "O macho pode chegar a medir 3 m de comprimento e a pesar quase 100 kg e as fêmeas "
-                + "chegam a medir 1,8 m. Em apenas uma refeição, podem comer o equivalente a 80% de seu peso." }
+            { "Tartaruga", "O casco das tartarugas é formado em grande parte pela junção das costelas que se originam da derme, a derme é a região onde "
+                + "nos mamíferos encontramos as glândulas sebáceas é a camada que traz rigidez a nossa pele." },
+            { "Lagarto", "Quando ameaçados alguns lagartos forçam a queda da cauda para enganar o predador e assim terá "
+                + "alguma chance de sobrevivência. O nome desse fenômeno é autotomia, depois a cauda regenera." },
+            { "Serpente", "Esses animais possuem o corpo coberto por escamas, que funcionam como proteção mecânica e também para evitar a desidratação do animal." },
+            { "Jacaré", "Os jacarés passam bastante tempo expostos ao sol com a boca aberta porque a pele da boca, que é fina e rica "
+                + "em vasos sanguíneos, absorve o calor com mais rapidez e eficiência." },
+            { "Dragão de Komodo", "São lagartos gigantes que podem chegar até os 3m de comprimento e pesar quase 100 kg. A sua forma de "
+                + "matar a presa e morder e lamber a ferida para que as bactérias presentes na sua boca causem a morte do animal para que ele possa se alimentar em seguida." }
         };
         Dictionary<string, string> animalsKnowledge = new Dictionary<string, string>
         {
-            { "TartarugaTatu", "São animais que possuem carapaça; Tartaruga é Sauropsida, tatu é mamífero; "
-                + "Ambas as carapaças são formadas por placas ósseas internas; As vertebras da tartaruga estão "
-                + "fundidas a carapaça, já o esqueleto do tatu é completamente independente da sua carapaça." },
-            { "TartarugaSerpente", "São Sauropsida. Famílias?." },
-            { "TartarugaLagarto", "São Sauropsida. São ectotermicos (animais que regulam a temperatura com o ambiente). Famílias?." },
-            { "TartarugaJacaré", "São Sauropsida. São ectotermicos (animais que regulam a temperatura com o ambiente). Famílias?." },
-            { "TartarugaDragão de Komodo", "São ectotermicos (animais que regulam a temperatura com o ambiente). Famílias?." },
-            { "TatuSerpente", "O Tatu é um mamífero e a Serpente é um sauropsida." },
-            { "TatuLagarto", "O Tatu é um mamífero e a Lagarto é um sauropsida." },
-            { "TatuJacaré", "O Tatu é um mamífero e o Jacaré é um sauropsida." },
-            { "TatuDragão de Komodo", "O Tatu é um mamífero e o Dragão de Komodo é um sauropsida." },
-            { "SerpenteLagarto", "São sauropsidas. Serpente perdeu ao longo da evolução seus membros "
-                + "já os lagartos não. São ectotermicos (animais que regulam a temperatura com o ambiente)." },
-            { "SerpenteJacaré", "São sauropsidas. Serpente teve a perda dos membros ao longo da evolução." },
-            { "SerpenteDragão de Komodo", "são sauropsidas. Ambos são predadores e possuem a língua bífida "
-                + "que auxilia no processo de rastreamento da presa." },
-            { "LagartoJacaré", "São sauropsidas. São ectotermicos. Lagarto vive no meio terrestre e o jacaré vive no meio aquático (??)"},
-            { "LagartoDragão de Komodo", "São sauropsidas!" },
-            { "JacaréDragão de Komodo", "São sauropsidas!" }
+            { "TartarugaTatu", "São animais que possuem carapaça; Tartaruga é Sauropsida (Você sabe o que é Sauropsida? é o nome "
+                +"correto para os repteis e as aves), tatu é mamífero; Ambas as carapaças são formadas por placas ósseas internas; "
+                +"As vertebras da tartaruga estão fundidas a carapaça, já o esqueleto do tatu é completamente independente da sua carapaça." },
+            { "TartarugaSerpente", "São Sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves). "
+                + "Possuem vértebras modificadas que são usadas pela tartaruga para recolher o pescoço, e a Serpente utiliza durante a constricção e sufocamento da presa." },
+            { "TartarugaLagarto", "São Sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves). "
+                + "São ectotérmicos (animais que regulam a temperatura com o ambiente)." },
+            { "TartarugaJacaré", "São Sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves). "
+                +" São ectotérmicos (animais que regulam a temperatura com o ambiente). Possuem ossos dérmicos para proteção." },
+            { "TartarugaDragão de Komodo", "São ectotérmicos (animais que regulam a temperatura com o ambiente). São bons nadadores." },
+            { "TatuSerpente", "Tatu é um mamífero e a Serpente é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves)." },
+            { "TatuLagarto", "Tatu é um mamífero e a serpente é um sauropsida (Você sabe o que é Sauropsida? é o nome correto "
+                +"para os repteis e as aves). Tatu usa unhas para escavar, e lagarto usa as unhas para escalar." },
+            { "TatuJacaré", "Tatu é um mamífero e a serpente é um sauropsida (Você sabe o que é Sauropsida? é o nome "
+                + "correto para os repteis e as aves). Possuem ossos dérmicos para proteção." },
+            { "TatuDragão de Komodo", "Tatu é um mamífero e o Dragão de Komodo é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves)." },
+            { "SerpenteLagarto", "São sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves). "
+                +"A Serpente perdeu ao longo da evolução seus membros já os Lagartos não. São ectotérmicos (animais que regulam a temperatura com o ambiente)." },
+            { "SerpenteJacaré", "São sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves). Serpente teve a "
+                +"perda dos membros ao longo da evolução. Algumas serpentes tem a cauda achatada, adaptada para o nado, igual o jacaré." },
+            { "SerpenteDragão de Komodo", "São sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves). "
+                +"Ambos são predadores e possuem a língua bífida que auxilia no processo de rastreamento da presa." },
+            { "LagartoJacaré", "São sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves). Jacaré possui 4"
+                +" compartimentos no coração, que servem para separar o sangue oxigenado, enquanto o lagarto possui somente 3."},
+            { "LagartoDragão de Komodo", "São sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves). "
+                +"O dragão de Komodo é a maior espécie de lagarto que existe." },
+            { "JacaréDragão de Komodo", "São sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves). "
+                +"Jacaré possui 4 compartimentos no coração, que servem para separar o sangue oxigenado, enquanto o lagarto possui somente 3." }
         };
         #endregion
 

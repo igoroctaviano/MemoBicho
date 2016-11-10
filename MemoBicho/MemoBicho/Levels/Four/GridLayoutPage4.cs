@@ -116,50 +116,39 @@ namespace MemoBicho.Levels.Four
         // Content
         Dictionary<string, string> animalsCuriosities = new Dictionary<string, string>
         {
-            { "Tubarão", "São animais ectodérmicos, ou seja, a temperatura do corpo varia de acordo com a temperatura ambiente." },
-            { "Golfinho", "A orca na verdade não pode ser considerada uma baleia, ela pertence à família dos golfinhos." },
+            { "Tubarão", "Os tubarões são animais ectotérmicos, ou seja, a temperatura do corpo varia de acordo com a temperatura ambiente." },
+            { "Golfinho", "Os golfinhos dormem com um lado do cérebro de cada vez. São animais que precisam ir para a superfície de 5 a 8 minutos para respirar." },
             { "Lampreia", "A pele desses animais é rica em glândulas produtoras de muco, que produzem em grande quantidade para se defenderem de predadores." },
             { "Salamandra", "Algumas salamandras produzem um muco venenoso que permite a ela uma maior proteção contra predadores." },
             { "Pinguim", "Possuem penas, mas suas asas são modificadas para nadar." },
-            { "Baleia", "é um mamífero, e por isso precisa sair da água para respirar. Possuem cerdas filtradoras e não dentes." },            
-            { "Ornitorrinco", "É um mamífero, mas bota ovos, possui uma glândula de veneno como modo de defesa, possui bico, possui penas." }
+            { "Baleia", "É um mamífero, e por isso precisa sair da água para respirar. Possuem cerdas filtradoras em vez de dentes." },            
+            { "Ornitorrinco", "É um mamífero, mas bota ovos, possui uma glândula de veneno como modo de defesa, possui bico e possui penas." }
         };
         Dictionary<string, string> animalsKnowledge = new Dictionary<string, string>
         {
             { "LampreiaSalamandra", "Elas possuem sangue frio (ectotérmicos) e possui dentes. Lampreia é um peixe e a Salamandra é um anfíbio." },
             { "LampreiaTubarão", "Vivem na água, possuem dentes, respiram por brânquias, possuem escamas, são ectotérmicos," 
                 + " botam ovos. Lampreia é um peixe ósseo e o Tubarão é um peixe cartilaginoso." },
-            { "LampreiaGolfinho", "Botam ovos. Lampreia é um peixe e o Pinguim é um sauropsida." },
-            { "LampreiaPinguim", "São Sauropsida. São ectotermicos (animais que regulam a temperatura com o ambiente). Famílias?." },
-            { "LampreiaBaleia", "Vivem na água. A Lampreia é um peixe e a Baleia é um mamífero." },
+            { "LampreiaGolfinho", "Vivem na água, possuem dentes. Lampreia é um peixe e os golfinhos são mamíferos." },
+            { "LampreiaPinguim", "Botam ovos. Lampreia é um peixe e o pinguim é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves)." },
+            { "LampreiaBaleia", "Vivem na água. A lampreia é um peixe e a baleia é um mamífero." },
             { "LampreiaOrnitorrinco", "Botam ovos. Lampreia é peixe e Ornitorrinco é um mamífero." },
             { "SalamandraTubarão", "Ectotérmicos, possuem dentes, são carnívoros. Salamandra é anfíbio e Tubarão é peixe." },
             { "SalamandraGolfinho", "São carnívoros, possuem pele lisa, possuem dentes. Salamandra é anfíbio e Golfinho é mamífero." },
-            { "SalamandraPinguim", "São carnívoros. Salamandra é anfíbio e Pinguim é sauropsida." },
+            { "SalamandraPinguim", "São carnívoros. Salamandra é Anfíbio e Pinguim é sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves)." },
             { "SalamandraBaleia", "Pele lisa. Salamandra é anfíbio e Baleia é mamífero." },
             { "SalamandraOrnitorrinco", "São carnívoros. A Salamandra é anfíbio e o Ornitorrinco é mamífero." },
-            { "TubarãoGolfinho", "Vivem na água, possuem dentes e são carnívoros. Tubarão: peixe, esqueleto cartilaginoso," 
-                + " ectotérmico, possui escamas, respira por brânquias, nadadeira bate verticalmente e botam ovos. Golfinhos: " 
-                + "mamífero, esqueleto ósseo, endotérmico, pele lisa, respiração pulmonar, nadadeira bate horizontalmente e não botam ovos." },
-            { "TubarãoPinguim", "Botam ovos. Tubarão: peixe, esqueleto cartilaginoso, respiração branquial, possui escamas, "
-                + "são ectotérmicos e possui dentes. Pinguim: sauropsida, esqueleto ósseo, respiração pulmonar, possui penas, são endotérmicos e possui bico."},
-            { "TubarãoBaleia", "Vivem na água. Tubarão: peixe, esqueleto cartilaginoso, ectotérmico, possui escamas, " 
-                + "respira por brânquias, nadadeira bate verticalmente e botam ovos. Baleia: mamífero, esqueleto ósseo, "
-                + "endotérmico, pele lisa, respiração pulmonar, nadadeira bate horizontalmente e não botam ovos." },
-            { "TubarãoOrnitorrinco", "Botam ovos, são carnívoros. Tubarão: peixe, ectotérmico, possui escamas, "
-                + "respira por brânquias. Ornitorrinco: Mamífero,endotérmico, possui pelos, respiração pulmonar." },
-            { "GolfinhoPinguim", "São carnívoros, respiração pulmonar. Golfinhos: mamífero, endotérmico, pele lisa, "
-                +"possui dentes, não botam ovos Pinguim: sauropsida, ectotérmico, pele com penas, possui bico e botam ovos." },
-            { "GolfinhoBaleia", "São mamíferos, vivem na água, nadadeira bate ventralmente, respiração pulmonar, " 
-                +"pele lisa, endotérmicos. Golfinho: possui dentes. Baleia: possui cerdas." },
-            { "GolfinhoOrnitorrinco", "Mamíferos, endotérmicos, carnívoros, respiração pulmonar. Golfinhos: pele lisa, "
-                +"possui dentes e não botam ovos. Ornitorrinco: pele com pelos, possuem bico e botam ovos." },
-            { "PinguimBaleia", "Endotérmicos, respiração pulmonar. Pinguim: Sauropsida, pele com penas, possui bico," 
-                +" carnívoro, bota ovos. Baleia: Mamífero, pele lisa, possui cerdas, filtrador, não bota ovos." },
-            { "PinguimOrnitorrinco", "Endotérmicos, botam ovos, possuem bico, são carnívoros. Pinguim: Sauropsida, "
-                +"possui penas. Ornitorrinco: Mamífero, possui pelos." },
-            { "BaleiaOrnitorrinco", "São mamíferos, endotérmicos Baleia: possui cerdas, não bota ovos, "
-                + "pele lisa, filtrador. Ornitorrinco: possui bico, bota ovos, pele com pelos e são carnívoros." },
+            { "TubarãoGolfinho", "Vivem na água, possuem dentes, são carnívoros. Tubarão é peixe, golfinho é mamífero." },
+            { "TubarãoPinguim", "botam ovos, Tubarão é peixe e pinguim sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves)."},
+            { "TubarãoBaleia", "Vivem na água. Tubarão é peixe, baleia é mamífero." },
+            { "TubarãoOrnitorrinco", "Botam ovos, são carnívoros. Tubarão é peixe e ornitorrinco é mamífero." },
+            { "GolfinhoPinguim", "Carnívora, respiração pulmonar. Golfinho é mamífero, pinguim sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves)." },
+            { "GolfinhoBaleia", "São mamíferos, vive na água, nadadeira bate ventralmente, respiração pulmonar, pele lisa, ectotérmicos." },
+            { "GolfinhoOrnitorrinco", "Mamíferos, endotérmicos, carnívoros, respiração pulmonar." },
+            { "PinguimBaleia", "Ectotérmicos, respiração pulmonar. Sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves) e mamífero." },
+            { "PinguimOrnitorrinco", "Endotérmicos, botam ovos, possuem bico, são carnívoros. Sauropsida (Você sabe o que é Sauropsida? "
+                + "é o nome correto para os repteis e as aves) e mamífero." },
+            { "BaleiaOrnitorrinco", "São mamíferos, ectotérmicos." },
         };
         #endregion
 

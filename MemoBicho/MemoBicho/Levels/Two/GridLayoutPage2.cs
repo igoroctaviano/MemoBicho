@@ -87,16 +87,16 @@ namespace MemoBicho.Levels.Two
         };
         Dictionary<string, string> animalsKnowledge = new Dictionary<string, string>
         {
-            { "SapoRaia", "Eles se reproduzem na água." },
-            { "SapoPerereca", "Eles apresentam." },
-            { "SapoPato", "Eles vivem no lago, nadam e usam a água para viver." },
-            { "SapoPeixe", "Eles nadam e tem muitas glândulas na pele." },
-            { "RaiaPerereca", "Elas respiram pela pele." },
-            { "RaiaPato", "Eles nadam e vivem no lago." },
-            { "RaiaPeixe", "Eles nadam e se reproduzem na água." },
-            { "PatoPerereca", "Eles nadam." },
-            { "PererecaPeixe", "Eles nadam e se reproduzem na água." },
-            { "PatoPeixe", "Eles nadam." }
+            { "SapoRaia", "O Sapo é um Anfíbio e a Raia é um peixe, ambos dependem da água para reprodução." },
+            { "SapoPerereca", "São Anfíbios, apresentam respiração cutânea e toxinas na pele." },
+            { "SapoPato", "O Sapo é Anfíbio e o Pato sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves) vivem no lago, nadam, usam a agua pra viver." },
+            { "SapoPeixe", "O Peixe não é Anfíbio como o Sapo mas eles nadam e tem muitas glândulas na pele." },
+            { "RaiaPerereca", "Perereca possui pele fina e permeável, enquanto as raias possuem escamas para se proteger." },
+            { "RaiaPato", "A nadadeira peitoral de ambos são iguais, mas com funções diferentes." },
+            { "RaiaPeixe", "Ambos pertencem ao grupo dos peixes, possuem respiração branquial, são animais dependentes da agua para a reprodução." },
+            { "PatoPerereca", "A Perereca é Anfibio enquanto o Pato é Sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves), ambos nadam." },
+            { "PererecaPeixe", "O Peixe não é Anfíbio como a Perereca porém eles nadam e se reproduzem na água." },
+            { "PatoPeixe", "O Peixe náo é Sauropsida como o Pato (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves) mas ambos nadam." }
         };
         #endregion
 

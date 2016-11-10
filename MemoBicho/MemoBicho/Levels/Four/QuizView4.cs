@@ -14,14 +14,45 @@ namespace MemoBicho.Levels.Four
     {
         Dictionary<string, string> questionsAndAnswers = new Dictionary<string, string>()
             {
-                { "Quanto é 1 + 1?", "2" },
-                { "Quanto é 2 + 1?", "3" }
+                { "Uma das características da Lampreia é:", "Ectotérmico." },
+                { "É uma característica da Salamandra:", "3" },
+                { "Qual dessas NÃO é uma característica de um Tubarão?", "2" },
+                { "Qual dessas é uma característica do Golfinho?", "2" },
+                { "São características do Pinguim:", "2" },
+                { "São características da Baleia:", "2" },
+                { "Sobre o Ornitorrinco marque a alternativa correta:", "2" }
             };
 
         Dictionary<string, List<string>> possibleAnswers = new Dictionary<string, List<string>>()
             {
-                { "Quanto é 1 + 1?", new List<string>() { "7", "1", "2" } },
-                { "Quanto é 2 + 1?", new List<string>() { "3", "1", "2" } }
+                { "Uma das características da Lampreia é:", new List<string>() { "Carnívoro.",
+                                                                                 "Ectotérmico.",
+                                                                                 "Peixe cartilaginoso.",
+                                                                                 "Pele com escamas." } },
+                { "É uma característica da Salamandra:", new List<string>() { "Respira somente por pulmões.",
+                                                                              "Possui escamas na pele.",
+                                                                              "Faz regulação endotérmica.",
+                                                                              "Respira por pulmões e pele."} },
+                { "Qual dessas NÃO é uma característica de um Tubarão?", new List<string>() { "Esqueleto cartilaginoso.",
+                                                                                              "Presença de escamas.",
+                                                                                              "Regulação endotérmica.",
+                                                                                              "Respiração branquial." } },
+                { "Qual dessas é uma característica do Golfinho?", new List<string>() { "Vive na água, portanto respira por brânquias.",
+                                                                                        "Vive na água, mas respira por pulmões.",
+                                                                                        "Somente se reproduz na água, é um mamífero.",
+                                                                                        "Vive na água, possui escamas." } },
+                { "São características do Pinguim:", new List<string>() { "É um sauropsida, consegue voar, põe ovos.",
+                                                                          "É um sauropsida, possui pena, põe ovos.",
+                                                                          "É um mamífero, possui pelos, nada.",
+                                                                          "É um sauropsida, consegue voar e nadar." } },
+                { "São características da Baleia:", new List<string>() { "Mamífero, filtrador, movimento horizontal da cauda.",
+                                                                         "Peixe, filtrador, movimento horizontal da cauda.",
+                                                                         "Mamífero, carnívoro, respiração pulmonar.",
+                                                                         "Peixe, carnívoro, respiração branquial." } },
+                { "Sobre o Ornitorrinco marque a alternativa correta:", new List<string>() { "É um mamífero, mas possui bico, e põe ovos.",
+                                                                                             "É um mamífero, mas possuem penas e põe ovos.",
+                                                                                             "É um sauropsida, possui bico, põe ovos.",
+                                                                                             "É um sauropsida, possui bicos, consegue voar." } }
             };
 
         public QuizView4()

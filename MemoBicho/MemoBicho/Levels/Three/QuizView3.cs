@@ -14,14 +14,45 @@ namespace MemoBicho.Levels.Three
     {
         Dictionary<string, string> questionsAndAnswers = new Dictionary<string, string>()
             {
-                { "Quanto é 1 + 1?", "2" },
-                { "Quanto é 2 + 1?", "3" }
+                { "Como o casco da tartaruga é formado?", "Pela junção de ossos como as costelas." },
+                { "Quando um lagarto se sente ameaçado qual o mecanismo que ele utiliza para se proteger?", "Provoca a queda da cauda." },
+                { "O dragão de Komodo pertence a qual grupo de animais?", "Sauropsida." },
+                { "Em relação aos jacarés marque a alternativa incorreta:", "São herbivoros." },
+                { "Em relação as serpentes marque a opção correta:", "São animais ectodérmicos." },
+                { "O tatu pertence ao grupo dos mamíferos, qual das características abaixo não é uma característica do tatu?", "São aquáticos." }
             };
 
         Dictionary<string, List<string>> possibleAnswers = new Dictionary<string, List<string>>()
             {
-                { "Quanto é 1 + 1?", new List<string>() { "7", "1", "2" } },
-                { "Quanto é 2 + 1?", new List<string>() { "3", "1", "2" } }
+                { "Como o casco da tartaruga é formado?", new List<string>() { "Pela junção de escamas.",
+                                                                               "Pela junção de ossos como as costelas.",
+                                                                               "Pela junção da pele.",
+                                                                               "Pela junção dos órgãos." } },
+                { "Quando um lagarto se sente ameaçado qual o mecanismo que ele utiliza para se proteger?", new List<string>() {
+                                                                                                            "Provoca a queda da cauda.",
+                                                                                                            "O animal fingi de morto.",
+                                                                                                            "O animal ataca o possível predador.",
+                                                                                                            "O animal promove a queda dos membros." } },
+                { "O dragão de Komodo pertence a qual grupo de animais?", new List<string>() {
+                                                                               "Peixes.",
+                                                                               "Sauropsida.",
+                                                                               "Anfíbios.",
+                                                                               "Mamíferos." } },
+                { "Em relação aos jacarés marque a alternativa incorreta:", new List<string>() {
+                                                                               "Botam ovos.",
+                                                                               "São herbivoros.",
+                                                                               "São ectotérmicos.",
+                                                                               "Possuem pele com presença de glândulas." } },
+                { "Em relação as serpentes marque a opção correta:", new List<string>() {
+                                                                               "Possuem membros.",
+                                                                               "São animais herbívoros.",
+                                                                               "São animais ectodérmicos.",
+                                                                               "Possuem pele com presença de glândulas." } },
+                { "O tatu pertence ao grupo dos mamíferos, qual das características abaixo não é uma característica do tatu?",
+                                                          new List<string>() { "Presença de pelos.",
+                                                                               "Endotérmicos.",
+                                                                               "Possuem carapaça.",
+                                                                               "São aquáticos." } },
             };
 
         public QuizView3()
