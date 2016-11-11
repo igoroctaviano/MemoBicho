@@ -15,8 +15,8 @@ namespace MemoBicho
         {
             var button = new Button()
             {
-                Text = "   Jogar   ",
-                HorizontalOptions = LayoutOptions.Center,
+                Text = "Jogar",
+                FontSize = 25,
                 BackgroundColor = Color.FromHex("#8BC34A")
             };
             button.Clicked += (object sender, EventArgs e) => 
@@ -24,7 +24,8 @@ namespace MemoBicho
 
             Content = new StackLayout
             {
-                Padding = 10,
+                VerticalOptions = LayoutOptions.Center,
+                Padding = 20,
                 Children = {
                     new StackLayout
                     {
@@ -32,7 +33,7 @@ namespace MemoBicho
                         Children = {
                             new Label
                             {
-                                Text = "MemoBicho", FontSize = 35,
+                                Text = "MemoBicho", FontSize = 40,
                                 HorizontalTextAlignment = TextAlignment.Center,
                                 FontAttributes = FontAttributes.Bold,
                                 TextColor = Color.FromHex("#8BC34A"),
@@ -50,12 +51,8 @@ namespace MemoBicho
                             }
                         }
                     },
-                    new StackLayout
-                    {
-                        Padding = 10,
-                        Children = { button }
-                    }
-                }
+                    button
+                },
             };
         }
     }

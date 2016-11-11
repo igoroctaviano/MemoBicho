@@ -258,5 +258,13 @@ C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\andro
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\hyena.png
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\ray.png
-C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
-C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\elephant.png
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\horse.png
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\eagle.png
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\tapir.png
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\sloth.png
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bat.png
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\dino.png
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\chicken.png
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb

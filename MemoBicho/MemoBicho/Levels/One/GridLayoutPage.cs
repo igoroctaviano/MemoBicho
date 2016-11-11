@@ -14,48 +14,56 @@ namespace MemoBicho.Levels.One
         Frame[] animals = {
             new Frame { ClassId = "Cachorro",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "bulldog.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Hiena",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "hyena.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Gato",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "cat.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Leão",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "lion.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Cachorro",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "bulldog.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Gato",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "cat.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Leão",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "lion.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Hiena",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "hyena.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
@@ -90,7 +98,7 @@ namespace MemoBicho.Levels.One
         bool isPlaying = false;
         List<string> matchedAnimals = new List<string>();
         List<Frame> tappedPairAnimals = new List<Frame>();
-        Label timeLabel = new Label { HorizontalOptions = LayoutOptions.Center };
+        Label timeLabel = new Label { HorizontalOptions = LayoutOptions.Center, FontSize = 20 };
         TapGestureRecognizer tap = new TapGestureRecognizer();
         private struct AnimalVisibility
         {
@@ -203,14 +211,13 @@ namespace MemoBicho.Levels.One
         {
             var width = App.Current.MainPage.Width;
             var height = App.Current.MainPage.Height;
-            DisplayAlert("Width:" + width,"Height:" + height,"ok!");
 
-            var grid = new Grid();
+            var grid = new Grid() { VerticalOptions = LayoutOptions.CenterAndExpand };
 
             for (var i = 0; i < this.animals.Length; i++)
             {
-                var column = i % 3;
-                var row = (int)Math.Floor(i / 3f);
+                var column = i % 2;
+                var row = (int)Math.Floor(i / 2f);
 
                 this.animals[i].GestureRecognizers.Add(this.tap);
                 grid.Children.Add(this.animals[i], column, row);
@@ -225,7 +232,7 @@ namespace MemoBicho.Levels.One
                 Padding = 10
             };
 
-            var startButton = new Button { Text = "Começar!", BackgroundColor = Color.FromHex("#8BC34A") };
+            var startButton = new Button { Text = "Começar!", FontSize = 25, BackgroundColor = Color.FromHex("#8BC34A") };
             startButton.Clicked += delegate
             {
                 if (!this.isPlaying)
@@ -266,14 +273,14 @@ namespace MemoBicho.Levels.One
             {
                 Text = "MemoBicho",
                 TextColor = Color.FromHex("#8BC34A"),
-                FontSize = 35,
+                FontSize = 40,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             });
             layout.Children.Add(new Label
             {
                 Text = "Jogo da Memória",
-                FontSize = 20,
+                FontSize = 25,
                 TextColor = Color.FromHex("#8BC34A"),
                 HorizontalTextAlignment = TextAlignment.Center
             });

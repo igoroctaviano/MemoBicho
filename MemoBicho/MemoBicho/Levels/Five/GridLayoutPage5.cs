@@ -139,35 +139,66 @@ namespace MemoBicho.Levels.Five
             { "Anta", "Possui uma tromba que permite maior alcance dos alimentos." },
             { "Elefante", "As orelhas dos elefantes são cobertas de pequenas veias que facilitam a "
                 + "dissipação de calor, mantendo a temperatura corporal do animal." },
-            { "Morcego", "Os morcegos hematófagos, aqueles que se alimentam de sangue, não sugam o sangue do animal "
-                +" como os mosquitos, eles mordem e lambem o sangue que escorre até se saciarem." },
+            { "Morcego", "Os morcegos hematófagos, aqueles que se alimentam de sangue, não sugam o sangue do animal como os mosquitos,"
+                +" eles mordem e lambem o sangue que escorre até se saciarem." },
         };
         Dictionary<string, string> animalsKnowledge = new Dictionary<string, string>
         {
-            { "DinossauroGavião", "São animais que possuem carapaça; Tartaruga é Sauropsida, tatu é mamífero; "
-                + "Ambas as carapaças são formadas por placas ósseas internas; As vertebras da tartaruga estão "
-                + "fundidas a carapaça, já o esqueleto do tatu é completamente independente da sua carapaça." },
-            { "DinossauroGalinha", "São Sauropsida. Famílias?." },
-            { "DinossauroMorcego", "São Sauropsida. São ectotermicos (animais que regulam a temperatura com o ambiente). Famílias?." },
-            { "DinossauroPreguiça", "São Sauropsida. São ectotermicos (animais que regulam a temperatura com o ambiente). Famílias?." },
-            { "DinossauroCavalo", "São ectotermicos (animais que regulam a temperatura com o ambiente). Famílias?." },
-            { "DinossauroAnta", "O Tatu é um mamífero e a Serpente é um sauropsida." },
-            { "DinossauroElefante", "O Tatu é um mamífero e a Lagarto é um sauropsida." },
-            { "GaviãoGalinha", "O Tatu é um mamífero e o Jacaré é um sauropsida." },
-            { "GaviãoMorcego", "O Tatu é um mamífero e o Dragão de Komodo é um sauropsida." },
-            { "GaviãoPreguiça", "São sauropsidas. Serpente perdeu ao longo da evolução seus membros "
-                + "já os lagartos não. São ectotermicos (animais que regulam a temperatura com o ambiente)." },
-            { "GaviãoCavalo", "São sauropsidas. Serpente teve a perda dos membros ao longo da evolução." },
-            { "GaviãoAnta", "são sauropsidas. Ambos são predadores e possuem a língua bífida "
-                + "que auxilia no processo de rastreamento da presa." },
-            { "GaviãoElefante", "São sauropsidas. São ectotermicos. Lagarto vive no meio terrestre e o jacaré vive no meio aquático (??)"},
-            { "GalinhaMorcego", "São sauropsidas!" },
-            { "GalinhaPreguiça", "São sauropsidas!" },
-            { "GalinhaCavalo", "São sauropsidas!" },
-            { "GalinhaAnta", "São sauropsidas!" },
-            { "GalinhaElefante", "São sauropsidas!" },
-            { "MorcegoPreguiça", "São sauropsidas!" },
-            { "MorcegoCavalo", "São sauropsidas!" }
+            { "DinossauroGavião", "Sauropsida (Você sabe o que é Sauropsida? é o nome correto para os répteis e as aves); "
+                + "Carnívoros; Predadores Raptores(Ladrões, Velozes); Possuem Penas; Garras afiadas; Vocalização Intimidadora." },
+            { "DinossauroGalinha", "São Sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os répteis e as aves). Possuem estômago muscular, que se chama moela." },
+            { "DinossauroMorcego", "Não possuem penas. Dinossauro: Sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves), "
+                +" herbívoros, se desloca andando, animal lento. Morcego: Mamífero, herbívoro frugívoro, se desloca por voo, animal rápido." },
+            { "DinossauroPreguiça", "Não possuem penas. Dinossauro: sauropsida (Você sabe o que é Sauropsida? é o nome correto "
+                +"para os repteis e as aves), herbívoro, vive em terra. Preguiça: Mamífero, herbívoro, vive em árvores." },
+            { "DinossauroCavalo", "Não possuem penas, são herbívoros, vivem em terra, caminham. Dinossauro: Sauropsida "
+                +"(Você sabe o que é Sauropsida? é o nome correto para os répteis e as aves), animal lento. Cavalo: Mamífero, Animal veloz." },
+            { "DinossauroAnta", "Não possuem penas, são herbívoros, animais lentos. Dinossauro: sauropsida (Você sabe o que é Sauropsida? é o "
+                +" nome correto para os répteis e as aves). Anta: Mamífero." },
+            { "DinossauroElefante", "Não possuem penas, são herbívoros, vivem em terra, animais lentos, possuem pés em forma de colunas. "
+                +" Dinossauro: sauropsida (Você sabe o que é Sauropsida? é o nome correto para os répteis e as aves). Elefante: Mamífero." },
+            { "GaviãoGalinha", "São Sauropsidas (Você sabe o que é Sauropsida? é o nome correto para os répteis e as aves). "
+                +"O Gavião possui musculatura escura no peito, que possui maior irrigação de sangue e permite voos longos."
+                +" A galinha possui musculatura clara e pouco irrigada de sangue, pois não consegue voar por uma distancia longa." },
+            { "GaviãoMorcego", "Ambos voam, Gavião é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os répteis e as aves), "
+                +"e seus dedos formam um eixo de sustentação para as penas, enquanto o morcego é um mamífero, e possui 5 dedos e entre eles "
+                +"possui uma membrana interdigital que permite a formação da asa para voo." },
+            { "GaviãoPreguiça", "Gavião é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os répteis "
+                +"e as aves), preguiça é um mamífero. O Gavião possui metabolismo acelerado enquanto a preguiça possui metabolismo lento." },
+            { "GaviãoCavalo", "Gavião é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os répteis e as aves), "
+                +"Cavalo é um mamífero. O Gavião se locomove no ar, e possui unhas afiadas que ajudam na predação. O cavalo se "
+                +"locomove na terra, e anda sobre a ponta dos cascos, que recobrem o seu único dedo em cada pata." },
+            { "GaviãoAnta", "Gavião é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves) "
+                +"e tem a pele recoberta por penas, enquanto a Anta é um mamífero recoberto por pelos." },
+            { "GaviãoElefante", "O Gavião é um Sauropsida (Você sabe o que é Sauropsida? é o nome correto para os répteis "
+                +" e as aves), controla a temperatura corporal abrindo as asas e a boca. O Elefante é um mamífero, abana as orelhas e esfria o sangue que passa pela região."},
+            { "GalinhaMorcego", "A galinha é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os repteis e as aves),"
+                +" e possuem penas recobrindo a pele, perdeu a capacidade de voo. O Morcego é um mamífero e consegue voar." },
+            { "GalinhaPreguiça", "A galinha é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os répteis"
+                +" e as aves), é onívoro e possuem penas recobrindo a pele, enquanto que a Preguiça é um mamífero, herbívoro e possui pelos muito grossos recobrindo a pele." },
+            { "GalinhaCavalo", "A galinha é um sauropsida e possuem cristas de queratina e seus machos (os galos) possuem uma "
+                +"forma de defesa nas patas, chamada esporão. O cavalo é um mamífero e possui queratina recobrindo os dedos, chamada de casco." },
+            { "GalinhaAnta", "A galinha é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os répteis e as aves) "
+                +"e possuem penas recobrindo sua pele, enquanto a anta é um mamífero e possui pelos recobrindo a pele." },
+            { "GalinhaElefante", "A galinha é um sauropsida (Você sabe o que é Sauropsida? é o nome correto para os répteis"
+                +" e as aves) e controla sua temperatura corporal abrindo suas asas, enquanto o elefante é um mamífero e abana suas orelhas fazendo com que esfrie o sangue que passa pela região." },
+            { "MorcegoPreguiça", "Ambos Mamíferos. Morcego possui membranas interdigitais adaptadas ao voo, a preguiça possui "
+                +"queratina alongada na ponta dos dedos permitindo maior fixação nos galhos das árvores onde vive." },
+            { "MorcegoCavalo", "Ambos Mamíferos. Morcego possui patas adaptadas ao voo, enquanto o cavalo possui dedos e cascos adaptados ao galope." },
+            { "MorcegoAnta", "Ambos Mamíferos. Morcego pode ser frugívoro (se alimenta de frutos) ou Hematófagos (se alimentam de sangue)"
+                +" e é adaptado ao voo, enquanto a Anta é herbívora e adaptada a caminhar." },
+            { "MorcegoElefante", "Mamíferos, Morcego pode ser frugívoro (se alimenta de frutos) ou Hematófagos (se alimentam de sangue) "
+                +"possui membrana interdigital que permite o voo, o elefante possui patas colunares adaptadas à sustentação do peso do animal." },
+            { "PreguiçaCavalo", "Ambos são mamíferos, porém a Preguiça possui metabolismo lento, e o cavalo possui metabolismo acelerado." },
+            { "PreguiçaAnta", "Ambos são mamíferos, porém a Preguiça possui metabolismo mais lento que o da Anta. A Anta vive em terra, enquanto a preguiça vive na copa das árvores." },
+            { "PreguiçaElefante", "Os dentes da preguiça possuem crescimento contínuo, enquanto os dentes do Elefante se repõem: o "
+                +"dente mais interno nasce e empurra o dente mais externo da boca." },
+            { "CavaloAnta", "são mamíferos, herbívoros. A Anta possui uma tromba que permite um maior alcance do alimento, enquanto o "
+                +"cavalo possui o rosto alongado, que também permite maior alcance dos alimentos." },
+            { "CavaloElefante", "cavalos são mamíferos, elefantes são herbívoros. O Elefante possui uma tromba que permite um maior"
+                +" alcance do alimento e patas colunares que permitem maior sustentação de seu peso, enquanto o cavalo possui o rosto alongado, "
+                +"que também permite maior alcance dos alimentos e possuem cascos que permitem a corrida do animal." },
+            { "AntaElefante", "Ambos são mamíferos, Herbívoros, Lentos e possuem uma tromba que permite um maior alcance dos alimentos." }
         };
         #endregion
 
@@ -175,7 +206,7 @@ namespace MemoBicho.Levels.Five
         bool isPlaying = false;
         List<string> matchedAnimals = new List<string>();
         List<Frame> tappedPairAnimals = new List<Frame>();
-        Label timeLabel = new Label { HorizontalOptions = LayoutOptions.Center };
+        Label timeLabel = new Label { HorizontalOptions = LayoutOptions.Center, FontSize = 20 };
         TapGestureRecognizer tap = new TapGestureRecognizer();
         private struct AnimalVisibility
         {
@@ -296,8 +327,8 @@ namespace MemoBicho.Levels.Five
 
             for (var i = 0; i < this.animals.Length; i++)
             {
-                var column = i % 4;
-                var row = (int)Math.Floor(i / 4f);
+                var column = i % 3;
+                var row = (int)Math.Floor(i / 3f);
 
                 this.animals[i].GestureRecognizers.Add(this.tap);
                 grid.Children.Add(this.animals[i], column, row);
@@ -312,7 +343,7 @@ namespace MemoBicho.Levels.Five
                 Padding = 10
             };
 
-            var startButton = new Button { Text = "Começar!", BackgroundColor = Color.FromHex("#8BC34A") };
+            var startButton = new Button { Text = "Começar!", FontSize = 25, BackgroundColor = Color.FromHex("#8BC34A") };
             startButton.Clicked += delegate
             {
                 if (!this.isPlaying)
@@ -342,7 +373,7 @@ namespace MemoBicho.Levels.Five
                 else
                 {
                     this.isPlaying = false;
-                    App.Current.MainPage = new GridLayoutPage2();
+                    App.Current.MainPage = new GridLayoutPage5();
                 }
             };
 
@@ -353,14 +384,14 @@ namespace MemoBicho.Levels.Five
             {
                 Text = "MemoBicho",
                 TextColor = Color.FromHex("#8BC34A"),
-                FontSize = 35,
+                FontSize = 40,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             });
             layout.Children.Add(new Label
             {
                 Text = "Jogo da Memória nível 5",
-                FontSize = 20,
+                FontSize = 25,
                 TextColor = Color.FromHex("#8BC34A"),
                 HorizontalTextAlignment = TextAlignment.Center
             });

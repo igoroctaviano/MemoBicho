@@ -14,60 +14,70 @@ namespace MemoBicho.Levels.Two
         Frame[] animals = {
             new Frame { ClassId = "Sapo",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "toad.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Raia",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "ray.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Peixe",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "fish.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Perereca",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "littleFrog.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Pato",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "duck.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Peixe",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "fish.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Sapo",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "toad.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Perereca",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "littleFrog.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Pato",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "duck.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
                                               Opacity = 1 } },
             new Frame { ClassId = "Raia",
                         BackgroundColor = Color.FromHex("#CDDC39"),
+                        Padding = 5,
                         Content = new Image { Source = "ray.png",
                                               Aspect = Aspect.AspectFit,
                                               BackgroundColor = Color.FromHex("#CDDC39"),
@@ -104,7 +114,7 @@ namespace MemoBicho.Levels.Two
         bool isPlaying = false;
         List<string> matchedAnimals = new List<string>();
         List<Frame> tappedPairAnimals = new List<Frame>();
-        Label timeLabel = new Label { HorizontalOptions = LayoutOptions.Center };
+        Label timeLabel = new Label { HorizontalOptions = LayoutOptions.Center, FontSize = 20 };
         TapGestureRecognizer tap = new TapGestureRecognizer();
         private struct AnimalVisibility
         {
@@ -225,8 +235,8 @@ namespace MemoBicho.Levels.Two
 
             for (var i = 0; i < this.animals.Length; i++)
             {
-                var column = i % 3;
-                var row = (int)Math.Floor(i / 3f);
+                var column = i % 2;
+                var row = (int)Math.Floor(i / 2f);
 
                 this.animals[i].GestureRecognizers.Add(this.tap);
                 grid.Children.Add(this.animals[i], column, row);
@@ -241,7 +251,7 @@ namespace MemoBicho.Levels.Two
                 Padding = 10
             };
 
-            var startButton = new Button { Text = "Começar!", BackgroundColor = Color.FromHex("#8BC34A") };
+            var startButton = new Button { Text = "Começar!", FontSize=25, BackgroundColor = Color.FromHex("#8BC34A") };
             startButton.Clicked += delegate
             {
                 if (!this.isPlaying)
@@ -282,14 +292,14 @@ namespace MemoBicho.Levels.Two
             {
                 Text = "MemoBicho",
                 TextColor = Color.FromHex("#8BC34A"),
-                FontSize = 35,
+                FontSize = 40,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             });
             layout.Children.Add(new Label
             {
                 Text = "Jogo da Memória nível 2",
-                FontSize = 20,
+                FontSize = 25,
                 TextColor = Color.FromHex("#8BC34A"),
                 HorizontalTextAlignment = TextAlignment.Center
             });

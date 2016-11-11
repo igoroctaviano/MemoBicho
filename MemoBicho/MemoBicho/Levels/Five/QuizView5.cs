@@ -13,23 +13,61 @@ namespace MemoBicho.Levels.Five
     {
         Dictionary<string, string> questionsAndAnswers = new Dictionary<string, string>()
             {
-                { "Quanto é 1 + 1?", "2" },
-                { "Quanto é 2 + 1?", "3" }
+                { "São características do dinossauro:", "metabolismo lento, herbívoro, sauropsida." },
+                { "Os gaviões são animais...?", "predadores." },
+                { "A musculatura do peito da galinha é branca por quê?", "porque é pouco irrigada com vasos sanguíneos." },
+                { "É característica dos morcegos?", "membranas interdigitais, hematófagos." },
+                { "Como são os dentes da preguiça?", "crescimento contínuo." },
+                { "Como são as patas dos cavalos?", "formadas por um único dedo." },
+                { "É característica da Anta:", "tromba, mamífero, herbívoro." },
+                { "Como os Elefantes dissipam calor?", "abanando as orelhas." }
             };
 
         Dictionary<string, List<string>> possibleAnswers = new Dictionary<string, List<string>>()
             {
-                { "Quanto é 1 + 1?", new List<string>() { "7", "1", "2" } },
-                { "Quanto é 2 + 1?", new List<string>() { "3", "1", "2" } }
+                { "São características do dinossauro:", new List<string>() { "herbívoro, metabolismo lento, tromba.",
+                                                                             "metabolismo lento, herbívoro, sauropsida.",
+                                                                             "sauropsida, rosto alongado, casco.",
+                                                                             "casco, sauropsida, herbívoro." } },
+                { "Os gaviões são animais...?", new List<string>() { "lentos.",
+                                                                     "herbívoros.",
+                                                                     "predadores.",
+                                                                     "pequenos." } },
+                { "A musculatura do peito da galinha é branca por quê?", new List<string>() { "porque é muito irrigada com vasos sanguíneos.",
+                                                                                              "porque é pouco irrigada com vasos sanguíneos.",
+                                                                                              "porque são aves rápidas.",
+                                                                                              "porque são aves que fazem voos grandes." } },
+                { "É característica dos morcegos?", new List<string>() { "membranas interdigitais, hematófagos.",
+                                                                         "hematófagos, lentos.",
+                                                                         "lentos e herbívoros.",
+                                                                         "frugívoros e pesados." } },
+                { "Como são os dentes da preguiça?", new List<string>() { "frágeis.",
+                                                                          "crescimento contínuo.",
+                                                                          "de leite.",
+                                                                          "grandes." } },
+                { "Como são as patas dos cavalos?", new List<string>() { "formadas com cinco dedos.",
+                                                                         "um pilar de sustentação.",
+                                                                         "formadas com cinco dedos recobertos de casco.",
+                                                                         "formadas por um único dedo." } },
+                { "É característica da Anta:", new List<string>() { "tromba, mamífero, carnívoro.",
+                                                                    "tromba, mamífero, frugívoro.",
+                                                                    "tromba, mamífero, herbívoro.",
+                                                                    "tromba, carnívoro, metabolismo lento." } },
+                { "Como os Elefantes dissipam calor?", new List<string>() { "correndo.",
+                                                                            "molhando.",
+                                                                            "deitando.",
+                                                                            "abanando as orelhas." } }
             };
 
         public QuizView5()
         {
+            BackgroundColor = Color.FromHex("#CDDC39");
+
             var logo = new Label()
             {
                 Text = "MemoBicho",
-                TextColor = Color.FromHex("#8BC34A"),
-                FontSize = 35,
+                TextColor = Color.FromHex("#003200"),
+                FontSize = 40,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             };
@@ -40,14 +78,20 @@ namespace MemoBicho.Levels.Five
             {
                 Text = "Quiz nível 5",
                 FontSize = 25,
-                TextColor = Color.FromHex("#8BC34A"),
+                TextColor = Color.FromHex("#003200"),
                 HorizontalTextAlignment = TextAlignment.Center
             });
 
             foreach (var question in questionsAndAnswers)
             {
                 var questionLayout = new StackLayout() { Padding = 10 };
-                questionLayout.Children.Add(new Label() { Text = question.Key, FontSize = 20 });
+                questionLayout.Children.Add(new Label()
+                {
+                    Text = question.Key,
+                    FontSize = 27,
+                    TextColor = Color.FromHex("#003200"),
+                    FontAttributes = FontAttributes.Bold
+                });
 
                 var answersButtons = new BindableRadioGroup();
                 foreach (var questionAnswers in possibleAnswers.Where(a => a.Key == question.Key).Select(a => a.Value))
@@ -56,16 +100,22 @@ namespace MemoBicho.Levels.Five
                     foreach (var answerButton in answersButtons.Items) // The button belongs to a question
                     {
                         answerButton.ClassId = question.Key;
-                        answerButton.FontSize = 15;
-                        answerButton.TextColor = Color.White;
+                        answerButton.FontSize = 22;
+                        answerButton.TextColor = Color.FromHex("#003200");
                     }
                 }
-                
+
                 questionLayout.Children.Add(answersButtons);
                 questionsLayout.Children.Add(questionLayout);
             }
 
-            var submitButton = new Button { Text = "Submeter respostas!", BackgroundColor = Color.FromHex("#8BC34A") };
+            var submitButton = new Button
+            {
+                Text = "Submeter respostas!",
+                FontSize = 25,
+                BackgroundColor = Color.FromHex("#1B5E20"),
+                FontAttributes = FontAttributes.Bold
+            };
             submitButton.Clicked += delegate
             {
                 int score = 0;
@@ -87,8 +137,8 @@ namespace MemoBicho.Levels.Five
                                     answerButton.TextColor = Color.Red;
                             }
                 }
-                DisplayAlert("Óra óra óra!", "Você pontuou " + score + " em " + questionsLayout.Children.Count / 2 + " questões.", "Próximo nível!")
-                    .ContinueWith(w => 
+                DisplayAlert("Óra óra óra!", "Você pontuou " + score + " em " + questionsLayout.Children.Count + " questões.", "Próximo nível!")
+                    .ContinueWith(w =>
                     {
                         this.Navigation.PopModalAsync();
                         Device.BeginInvokeOnMainThread(() => this.Navigation.PushModalAsync(new FinalPage()));

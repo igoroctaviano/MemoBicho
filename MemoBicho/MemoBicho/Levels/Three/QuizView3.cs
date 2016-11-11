@@ -57,11 +57,13 @@ namespace MemoBicho.Levels.Three
 
         public QuizView3()
         {
+            BackgroundColor = Color.FromHex("#CDDC39");
+
             var logo = new Label()
             {
                 Text = "MemoBicho",
-                TextColor = Color.FromHex("#8BC34A"),
-                FontSize = 35,
+                TextColor = Color.FromHex("#003200"),
+                FontSize = 40,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             };
@@ -72,14 +74,20 @@ namespace MemoBicho.Levels.Three
             {
                 Text = "Quiz nível 3",
                 FontSize = 25,
-                TextColor = Color.FromHex("#8BC34A"),
+                TextColor = Color.FromHex("#003200"),
                 HorizontalTextAlignment = TextAlignment.Center
             });
 
             foreach (var question in questionsAndAnswers)
             {
                 var questionLayout = new StackLayout() { Padding = 10 };
-                questionLayout.Children.Add(new Label() { Text = question.Key, FontSize = 20 });
+                questionLayout.Children.Add(new Label()
+                {
+                    Text = question.Key,
+                    FontSize = 27,
+                    TextColor = Color.FromHex("#003200"),
+                    FontAttributes = FontAttributes.Bold
+                });
 
                 var answersButtons = new BindableRadioGroup();
                 foreach (var questionAnswers in possibleAnswers.Where(a => a.Key == question.Key).Select(a => a.Value))
@@ -88,8 +96,8 @@ namespace MemoBicho.Levels.Three
                     foreach (var answerButton in answersButtons.Items) // The button belongs to a question
                     {
                         answerButton.ClassId = question.Key;
-                        answerButton.FontSize = 15;
-                        answerButton.TextColor = Color.White;
+                        answerButton.FontSize = 22;
+                        answerButton.TextColor = Color.FromHex("#003200");
                     }
                 }
                 
@@ -97,7 +105,13 @@ namespace MemoBicho.Levels.Three
                 questionsLayout.Children.Add(questionLayout);
             }
 
-            var submitButton = new Button { Text = "Submeter respostas!", BackgroundColor = Color.FromHex("#8BC34A") };
+            var submitButton = new Button
+            {
+                Text = "Submeter respostas!",
+                FontSize = 25,
+                BackgroundColor = Color.FromHex("#1B5E20"),
+                FontAttributes = FontAttributes.Bold
+            };
             submitButton.Clicked += delegate
             {
                 int score = 0;
@@ -119,7 +133,7 @@ namespace MemoBicho.Levels.Three
                                     answerButton.TextColor = Color.Red;
                             }
                 }
-                DisplayAlert("Óra óra óra!", "Você pontuou " + score + " em " + questionsLayout.Children.Count / 2 + " questões.", "Próximo nível!")
+                DisplayAlert("Óra óra óra!", "Você pontuou " + score + " em " + questionsLayout.Children.Count + " questões.", "Próximo nível!")
                     .ContinueWith(w => 
                     {
                         this.Navigation.PopModalAsync();

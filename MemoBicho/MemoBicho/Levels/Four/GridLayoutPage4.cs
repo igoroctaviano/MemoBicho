@@ -156,7 +156,7 @@ namespace MemoBicho.Levels.Four
         bool isPlaying = false;
         List<string> matchedAnimals = new List<string>();
         List<Frame> tappedPairAnimals = new List<Frame>();
-        Label timeLabel = new Label { HorizontalOptions = LayoutOptions.Center };
+        Label timeLabel = new Label { HorizontalOptions = LayoutOptions.Center, FontSize = 20 };
         TapGestureRecognizer tap = new TapGestureRecognizer();
         private struct AnimalVisibility
         {
@@ -277,8 +277,8 @@ namespace MemoBicho.Levels.Four
 
             for (var i = 0; i < this.animals.Length; i++)
             {
-                var column = i % 5;
-                var row = (int)Math.Floor(i / 5f);
+                var column = i % 3;
+                var row = (int)Math.Floor(i / 3f);
 
                 this.animals[i].GestureRecognizers.Add(this.tap);
                 grid.Children.Add(this.animals[i], column, row);
@@ -293,7 +293,7 @@ namespace MemoBicho.Levels.Four
                 Padding = 10
             };
 
-            var startButton = new Button { Text = "Começar!", BackgroundColor = Color.FromHex("#8BC34A") };
+            var startButton = new Button { Text = "Começar!", FontSize = 25, BackgroundColor = Color.FromHex("#8BC34A") };
             startButton.Clicked += delegate
             {
                 if (!this.isPlaying)
@@ -323,7 +323,7 @@ namespace MemoBicho.Levels.Four
                 else
                 {
                     this.isPlaying = false;
-                    App.Current.MainPage = new GridLayoutPage2();
+                    App.Current.MainPage = new GridLayoutPage4();
                 }
             };
 
@@ -334,14 +334,14 @@ namespace MemoBicho.Levels.Four
             {
                 Text = "MemoBicho",
                 TextColor = Color.FromHex("#8BC34A"),
-                FontSize = 35,
+                FontSize = 40,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             });
             layout.Children.Add(new Label
             {
                 Text = "Jogo da Memória nível 4",
-                FontSize = 20,
+                FontSize = 25,
                 TextColor = Color.FromHex("#8BC34A"),
                 HorizontalTextAlignment = TextAlignment.Center
             });

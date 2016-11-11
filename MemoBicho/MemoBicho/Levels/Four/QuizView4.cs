@@ -14,13 +14,13 @@ namespace MemoBicho.Levels.Four
     {
         Dictionary<string, string> questionsAndAnswers = new Dictionary<string, string>()
             {
-                { "Uma das características da Lampreia é:", "Ectotérmico." },
-                { "É uma característica da Salamandra:", "3" },
-                { "Qual dessas NÃO é uma característica de um Tubarão?", "2" },
-                { "Qual dessas é uma característica do Golfinho?", "2" },
-                { "São características do Pinguim:", "2" },
-                { "São características da Baleia:", "2" },
-                { "Sobre o Ornitorrinco marque a alternativa correta:", "2" }
+                { "Uma das características da Lampreia é:", "Pele com escamas." },
+                { "É uma característica da Salamandra:", "Respira por pulmões e pele." },
+                { "Qual dessas NÃO é uma característica de um Tubarão?", "Regulação endotérmica." },
+                { "Qual dessas é uma característica do Golfinho?", "Vive na água, mas respira por pulmões." },
+                { "São características do Pinguim:", "É um sauropsida, possui pena, põe ovos." },
+                { "São características da Baleia:", "Mamífero, filtrador, movimento vertical da cauda." },
+                { "Sobre o Ornitorrinco marque a alternativa correta:", "É um mamífero, mas possui bico, e põe ovos." }
             };
 
         Dictionary<string, List<string>> possibleAnswers = new Dictionary<string, List<string>>()
@@ -45,8 +45,8 @@ namespace MemoBicho.Levels.Four
                                                                           "É um sauropsida, possui pena, põe ovos.",
                                                                           "É um mamífero, possui pelos, nada.",
                                                                           "É um sauropsida, consegue voar e nadar." } },
-                { "São características da Baleia:", new List<string>() { "Mamífero, filtrador, movimento horizontal da cauda.",
-                                                                         "Peixe, filtrador, movimento horizontal da cauda.",
+                { "São características da Baleia:", new List<string>() { "Mamífero, filtrador, movimento vertical da cauda.",
+                                                                         "Peixe, filtrador, movimento vertical da cauda.",
                                                                          "Mamífero, carnívoro, respiração pulmonar.",
                                                                          "Peixe, carnívoro, respiração branquial." } },
                 { "Sobre o Ornitorrinco marque a alternativa correta:", new List<string>() { "É um mamífero, mas possui bico, e põe ovos.",
@@ -57,11 +57,13 @@ namespace MemoBicho.Levels.Four
 
         public QuizView4()
         {
+            BackgroundColor = Color.FromHex("#CDDC39");
+
             var logo = new Label()
             {
                 Text = "MemoBicho",
-                TextColor = Color.FromHex("#8BC34A"),
-                FontSize = 35,
+                TextColor = Color.FromHex("#003200"),
+                FontSize = 40,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             };
@@ -72,14 +74,20 @@ namespace MemoBicho.Levels.Four
             {
                 Text = "Quiz nível 4",
                 FontSize = 25,
-                TextColor = Color.FromHex("#8BC34A"),
+                TextColor = Color.FromHex("#003200"),
                 HorizontalTextAlignment = TextAlignment.Center
             });
 
             foreach (var question in questionsAndAnswers)
             {
                 var questionLayout = new StackLayout() { Padding = 10 };
-                questionLayout.Children.Add(new Label() { Text = question.Key, FontSize = 20 });
+                questionLayout.Children.Add(new Label()
+                {
+                    Text = question.Key,
+                    FontSize = 27,
+                    TextColor = Color.FromHex("#003200"),
+                    FontAttributes = FontAttributes.Bold
+                });
 
                 var answersButtons = new BindableRadioGroup();
                 foreach (var questionAnswers in possibleAnswers.Where(a => a.Key == question.Key).Select(a => a.Value))
@@ -88,8 +96,8 @@ namespace MemoBicho.Levels.Four
                     foreach (var answerButton in answersButtons.Items) // The button belongs to a question
                     {
                         answerButton.ClassId = question.Key;
-                        answerButton.FontSize = 15;
-                        answerButton.TextColor = Color.White;
+                        answerButton.FontSize = 22;
+                        answerButton.TextColor = Color.FromHex("#003200");
                     }
                 }
                 
@@ -97,7 +105,13 @@ namespace MemoBicho.Levels.Four
                 questionsLayout.Children.Add(questionLayout);
             }
 
-            var submitButton = new Button { Text = "Submeter respostas!", BackgroundColor = Color.FromHex("#8BC34A") };
+            var submitButton = new Button
+            {
+                Text = "Submeter respostas!",
+                FontSize = 25,
+                BackgroundColor = Color.FromHex("#1B5E20"),
+                FontAttributes = FontAttributes.Bold
+            };
             submitButton.Clicked += delegate
             {
                 int score = 0;
@@ -119,7 +133,7 @@ namespace MemoBicho.Levels.Four
                                     answerButton.TextColor = Color.Red;
                             }
                 }
-                DisplayAlert("Óra óra óra!", "Você pontuou " + score + " em " + questionsLayout.Children.Count / 2 + " questões.", "Próximo nível!")
+                DisplayAlert("Óra óra óra!", "Você pontuou " + score + " em " + questionsLayout.Children.Count + " questões.", "Próximo nível!")
                     .ContinueWith(w => 
                     {
                         this.Navigation.PopModalAsync();
