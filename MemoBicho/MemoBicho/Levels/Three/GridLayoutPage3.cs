@@ -205,7 +205,7 @@ namespace MemoBicho.Levels.Three
                 var image = (Image)frame.Content;
                 string animal = frame.ClassId; // The frame class id holds the animal name
 
-                if (image.Opacity == 0 && this.tappedPairAnimals.Contains(frame) == false) // If it's dark (clickable) and not cliked yet
+                if (image.Opacity == AnimalVisibility.Hide && this.tappedPairAnimals.Contains(frame) == false) // If it's dark (clickable) and not cliked yet
                 {
                     // Show the Animal and Update the frame(set the frame)
                     image.Opacity = AnimalVisibility.Show; // Set opacity to show the animal

@@ -129,7 +129,8 @@ namespace MemoBicho.Levels.Two
                                     answerButton.TextColor = Color.Red;
                             }
                 }
-                DisplayAlert("Óra óra óra!", "Você pontuou " + score + " em " + questionsLayout.Children.Count + " questões.", "Próximo nível!")
+                DisplayAlert("Legal, você completou o seu quinto questionário!", "Você pontuou "
+                    + score + " em " + (questionsLayout.Children.Count - 2) + " questões.", "Próximo nível!")
                     .ContinueWith(w => 
                     {
                         this.Navigation.PopModalAsync();

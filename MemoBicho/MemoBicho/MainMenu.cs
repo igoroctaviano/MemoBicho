@@ -43,7 +43,7 @@ namespace MemoBicho
                                 Text = "MemoBicho", FontSize = 60,
                                 HorizontalTextAlignment = TextAlignment.Center,
                                 FontAttributes = FontAttributes.Bold,
-                                TextColor = textColor,
+                                TextColor = textColor
                             }
                         }
                     },
@@ -54,7 +54,7 @@ namespace MemoBicho
                             new Image
                             {
                                 Source = "front.png",
-                                HorizontalOptions = LayoutOptions.Center,
+                                HorizontalOptions = LayoutOptions.Center
                             }
                         }
                     },

@@ -48,5 +48,3 @@ C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.p
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.csprojResolveAssemblyReference.cache
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
 C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb
-C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\obj\Debug\MemoBicho.dll.mdb
-C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho\bin\Debug\MemoBicho.dll.mdb
