@@ -12,6 +12,10 @@ namespace MemoBicho.Levels.Four
 {
     public class QuizView4 : ContentPage
     {
+        Color backgroundColor = Color.FromHex("#8BC34A");
+        Color buttonBackgroundColor = Color.FromHex("#689F38");
+        Color textColor = Color.FromHex("#33691E");
+
         Dictionary<string, string> questionsAndAnswers = new Dictionary<string, string>()
             {
                 { "Uma das características da Lampreia é:", "Pele com escamas." },
@@ -57,12 +61,12 @@ namespace MemoBicho.Levels.Four
 
         public QuizView4()
         {
-            BackgroundColor = Color.FromHex("#CDDC39");
+            BackgroundColor = backgroundColor;
 
             var logo = new Label()
             {
                 Text = "MemoBicho",
-                TextColor = Color.FromHex("#003200"),
+                TextColor = textColor,
                 FontSize = 40,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
@@ -74,7 +78,7 @@ namespace MemoBicho.Levels.Four
             {
                 Text = "Quiz nível 4",
                 FontSize = 25,
-                TextColor = Color.FromHex("#003200"),
+                TextColor = textColor,
                 HorizontalTextAlignment = TextAlignment.Center
             });
 
@@ -85,7 +89,7 @@ namespace MemoBicho.Levels.Four
                 {
                     Text = question.Key,
                     FontSize = 27,
-                    TextColor = Color.FromHex("#003200"),
+                    TextColor = textColor,
                     FontAttributes = FontAttributes.Bold
                 });
 
@@ -97,7 +101,7 @@ namespace MemoBicho.Levels.Four
                     {
                         answerButton.ClassId = question.Key;
                         answerButton.FontSize = 22;
-                        answerButton.TextColor = Color.FromHex("#003200");
+                        answerButton.TextColor = textColor;
                     }
                 }
                 
@@ -109,7 +113,7 @@ namespace MemoBicho.Levels.Four
             {
                 Text = "Submeter respostas!",
                 FontSize = 25,
-                BackgroundColor = Color.FromHex("#1B5E20"),
+                BackgroundColor = buttonBackgroundColor,
                 FontAttributes = FontAttributes.Bold
             };
             submitButton.Clicked += delegate

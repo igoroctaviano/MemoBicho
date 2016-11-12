@@ -153,10 +153,18 @@ namespace MemoBicho.Levels.Four
         #endregion
 
         #region Attributes
+        Color backgroundColor = Color.FromHex("#8BC34A");
+        Color buttonBackgroundColor = Color.FromHex("#689F38");
+        Color textColor = Color.FromHex("#33691E");
+
         bool isPlaying = false;
         List<string> matchedAnimals = new List<string>();
         List<Frame> tappedPairAnimals = new List<Frame>();
-        Label timeLabel = new Label { HorizontalOptions = LayoutOptions.Center, FontSize = 20 };
+        Label timeLabel = new Label
+        {
+            HorizontalOptions = LayoutOptions.Center,
+            FontSize = 20
+        };
         TapGestureRecognizer tap = new TapGestureRecognizer();
         private struct AnimalVisibility
         {
@@ -186,6 +194,9 @@ namespace MemoBicho.Levels.Four
 
         private void BrandNewGrid()
         {
+            BackgroundColor = backgroundColor;
+            timeLabel.TextColor = textColor;
+
             var layout = new StackLayout
             {
                 Orientation = StackOrientation.Vertical,
@@ -293,7 +304,12 @@ namespace MemoBicho.Levels.Four
                 Padding = 10
             };
 
-            var startButton = new Button { Text = "Começar!", FontSize = 25, BackgroundColor = Color.FromHex("#8BC34A") };
+            var startButton = new Button
+            {
+                Text = "Começar!",
+                FontSize = 25,
+                BackgroundColor = buttonBackgroundColor
+            };
             startButton.Clicked += delegate
             {
                 if (!this.isPlaying)
@@ -333,16 +349,16 @@ namespace MemoBicho.Levels.Four
             layout.Children.Add(new Label
             {
                 Text = "MemoBicho",
-                TextColor = Color.FromHex("#8BC34A"),
-                FontSize = 40,
+                TextColor = textColor,
+                FontSize = 45,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalTextAlignment = TextAlignment.Center
             });
             layout.Children.Add(new Label
             {
                 Text = "Jogo da Memória nível 4",
-                FontSize = 25,
-                TextColor = Color.FromHex("#8BC34A"),
+                FontSize = 30,
+                TextColor = textColor,
                 HorizontalTextAlignment = TextAlignment.Center
             });
             layout.Children.Add(this.timeLabel);

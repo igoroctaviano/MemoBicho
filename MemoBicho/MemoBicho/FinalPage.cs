@@ -10,20 +10,31 @@ namespace MemoBicho
 {
     public class FinalPage : ContentPage
     {
+        Color backgroundColor = Color.FromHex("#8BC34A");
+        Color buttonBackgroundColor = Color.FromHex("#689F38");
+        Color textColor = Color.FromHex("#33691E");
+
         public FinalPage()
         {
+            BackgroundColor = backgroundColor;
+
             var authors = new Label()
             {
                 Text = "Ilustração por Camila Binder",
-                FontSize = 20,
-                TextColor = Color.FromHex("#8BC34A"),
+                FontSize = 22,
+                TextColor = textColor,
                 HorizontalTextAlignment = TextAlignment.Center,
             };
             var tap = new TapGestureRecognizer();
-            tap.Tapped += delegate { Device.OpenUri(new Uri("www.google.com")); };
+            tap.Tapped += delegate { Device.OpenUri(new Uri("http://lattes.cnpq.br/1533775666021835")); };
             authors.GestureRecognizers.Add(tap);
 
-            var restartButton = new Button { Text = "Voltar ao início!", FontSize = 25, BackgroundColor = Color.FromHex("#8BC34A") };
+            var restartButton = new Button
+            {
+                Text = "Voltar ao início!",
+                FontSize = 25,
+                BackgroundColor = buttonBackgroundColor
+            };
             restartButton.Clicked += delegate
             {
                 this.Navigation.PopModalAsync();
@@ -38,7 +49,7 @@ namespace MemoBicho
                     new Label
                     {
                         Text = "MemoBicho",
-                        TextColor = Color.FromHex("#8BC34A"),
+                        TextColor = textColor,
                         FontSize = 40,
                         FontAttributes = FontAttributes.Bold,
                         HorizontalTextAlignment = TextAlignment.Center
@@ -47,7 +58,7 @@ namespace MemoBicho
                     {
                         Text = "Parabéns!",
                         FontSize = 25,
-                        TextColor = Color.FromHex("#8BC34A"),
+                        TextColor = textColor,
                         HorizontalTextAlignment = TextAlignment.Center
                     },
                     new StackLayout
@@ -59,7 +70,7 @@ namespace MemoBicho
                             {
                                 Text = "Você completou todos os desafios.",
                                 FontSize = 30,
-                                TextColor = Color.FromHex("#8BC34A"),
+                                TextColor = textColor,
                                 HorizontalTextAlignment = TextAlignment.Center
                             }
                         }
@@ -69,7 +80,7 @@ namespace MemoBicho
                         Padding = 20,
                         Orientation = StackOrientation.Horizontal,
                         HorizontalOptions = LayoutOptions.Center,
-                        BackgroundColor = Color.FromHex("#8BC34A"),
+                        BackgroundColor = buttonBackgroundColor,
                         Children = { restartButton }
                     },
                     new StackLayout
