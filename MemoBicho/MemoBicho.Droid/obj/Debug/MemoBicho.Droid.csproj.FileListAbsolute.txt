@@ -266,5 +266,5 @@ C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\d
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\bat.png
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\dino.png
 C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\res\drawable\chicken.png
-C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
-C:\Users\Avenue Code\Desktop\MemoBicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\obj\Debug\MemoBicho.Droid.dll.mdb
+C:\Users\Avenue Code\Desktop\memobicho\MemoBicho\MemoBicho.Droid\bin\Debug\MemoBicho.Droid.dll.mdb

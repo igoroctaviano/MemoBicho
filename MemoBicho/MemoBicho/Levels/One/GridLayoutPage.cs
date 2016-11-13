@@ -177,9 +177,11 @@ namespace MemoBicho.Levels.One
                                 DisplayAlert(animal, this.GetAnimalCuriosity(animal), "Continuar!").ContinueWith(t =>
                                 {
                                     DisplayAlert("Parabéns", "Você completou esse desafio com o tempo: "
-                                        + this.timeLabel.Text + ".", "Próximo nível!").ContinueWith(w =>
-                                         { Device.BeginInvokeOnMainThread(() => this.Navigation.PushModalAsync(new QuizView())); },
-                                            TaskScheduler.FromCurrentSynchronizationContext());
+                                        + this.timeLabel.Text + ".", "Avançar para o Quiz!").ContinueWith(w =>
+                                         {
+                                             Device.BeginInvokeOnMainThread(() => this.Navigation.PushModalAsync(new QuizView()));
+                                         },
+                                         TaskScheduler.FromCurrentSynchronizationContext());
                                 }, TaskScheduler.FromCurrentSynchronizationContext());
 
                                 this.tappedPairAnimals.Clear();

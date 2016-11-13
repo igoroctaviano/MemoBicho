@@ -108,7 +108,7 @@ namespace MemoBicho.Levels.Two
                 BackgroundColor = buttonBackgroundColor,
                 FontAttributes = FontAttributes.Bold
             };
-            submitButton.Clicked += delegate
+            submitButton.Clicked += async delegate
             {
                 int score = 0;
                 foreach (StackLayout questionLayout in questionsLayout.Children
@@ -129,14 +129,14 @@ namespace MemoBicho.Levels.Two
                                     answerButton.TextColor = Color.Red;
                             }
                 }
-                DisplayAlert("Legal, você completou o seu quinto questionário!", "Você pontuou "
-                    + score + " em " + (questionsLayout.Children.Count - 2) + " questões.", "Próximo nível!")
-                    .ContinueWith(w => 
+                var result = await DisplayAlert("Legal, você completou o seu segundo questionário!", "Você pontuou "
+                    + score + " em " + ((questionsLayout.Children.Count - 2) - 1) + " questões.", "Resultado", "Próximo nível");
+                if (!result.Equals(true))
+                    await Task.Run(() =>
                     {
                         this.Navigation.PopModalAsync();
                         Device.BeginInvokeOnMainThread(() => this.Navigation.PushModalAsync(new GridLayoutPage3()));
-                    },
-                    TaskScheduler.FromCurrentSynchronizationContext());
+                    });
             };
 
             questionsLayout.Children.Add(submitButton);

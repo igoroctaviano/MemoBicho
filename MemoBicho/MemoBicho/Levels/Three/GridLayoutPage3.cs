@@ -230,12 +230,12 @@ namespace MemoBicho.Levels.Three
                                 DisplayAlert(animal, this.GetAnimalCuriosity(animal), "Continuar!").ContinueWith(t =>
                                 {
                                     DisplayAlert("Parabéns", "Você completou esse desafio com o tempo: " 
-                                        + this.timeLabel.Text + ".", "Próximo nível!").ContinueWith(w =>
-                                         {
-                                             this.Navigation.PopModalAsync();
-                                             Device.BeginInvokeOnMainThread(() => this.Navigation.PushModalAsync(new QuizView3()));
-                                         },
-                                         TaskScheduler.FromCurrentSynchronizationContext());
+                                        + this.timeLabel.Text + ".", "Avançar para o Quiz!").ContinueWith(w =>
+                                        {
+                                            this.Navigation.PopModalAsync();
+                                            Device.BeginInvokeOnMainThread(() => this.Navigation.PushModalAsync(new QuizView3()));
+                                        },
+                                        TaskScheduler.FromCurrentSynchronizationContext());
                                 }, TaskScheduler.FromCurrentSynchronizationContext());
 
                                 this.tappedPairAnimals.Clear();
